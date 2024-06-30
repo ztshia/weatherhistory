@@ -7,7 +7,9 @@ def fetch_weather(api_url):
     try:
         response = requests.get(api_url)
         response.raise_for_status()  # 检查HTTP错误
-        return response.json()
+        data = response.json()
+        print("API response:", data)  # 打印API返回的数据
+        return data
     except requests.exceptions.RequestException as e:
         print(f"HTTP请求失败: {e}")
         return None
