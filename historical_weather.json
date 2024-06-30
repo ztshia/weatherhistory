@@ -5407,64 +5407,70 @@
             "conditions": "雨转多云"
         },
         {
-          "datetime": "2024-06-20",
-          "tempmax": 30,
-          "tempmin": 23,
-          "conditions": "雨"
+            "datetime": "2024-06-20",
+            "tempmax": 30,
+            "tempmin": 23,
+            "conditions": "雨"
         },
         {
-          "datetime": "2024-06-21",
-          "tempmax": 31,
-          "tempmin": 24,
-          "conditions": "雨"
+            "datetime": "2024-06-21",
+            "tempmax": 31,
+            "tempmin": 24,
+            "conditions": "雨"
         },
         {
-          "datetime": "2024-06-22",
-          "tempmax": 31,
-          "tempmin": 24,
-          "conditions": "雨"
+            "datetime": "2024-06-22",
+            "tempmax": 31,
+            "tempmin": 24,
+            "conditions": "雨"
         },
         {
-          "datetime": "2024-06-23",
-          "tempmax": 32,
-          "tempmin": 21,
-          "conditions": "多云"
+            "datetime": "2024-06-23",
+            "tempmax": 32,
+            "tempmin": 21,
+            "conditions": "多云"
         },
         {
-          "datetime": "2024-06-24",
-          "tempmax": 30,
-          "tempmin": 21,
-          "conditions": "雨"
+            "datetime": "2024-06-24",
+            "tempmax": 30,
+            "tempmin": 21,
+            "conditions": "雨"
         },
         {
-          "datetime": "2024-06-25",
-          "tempmax": 27,
-          "tempmin": 20,
-          "conditions": "雨"
+            "datetime": "2024-06-25",
+            "tempmax": 27,
+            "tempmin": 20,
+            "conditions": "雨"
         },
         {
-          "datetime": "2024-06-26",
-          "tempmax": 28,
-          "tempmin": 21,
-          "conditions": "雨"
+            "datetime": "2024-06-26",
+            "tempmax": 28,
+            "tempmin": 21,
+            "conditions": "雨"
         },
         {
-          "datetime": "2024-06-27",
-          "tempmax": 28,
-          "tempmin": 21,
-          "conditions": "雨"
+            "datetime": "2024-06-27",
+            "tempmax": 28,
+            "tempmin": 21,
+            "conditions": "雨"
         },
         {
-          "datetime": "2024-06-28",
-          "tempmax": 25,
-          "tempmin": 23,
-          "conditions": "雨"
+            "datetime": "2024-06-28",
+            "tempmax": 25,
+            "tempmin": 23,
+            "conditions": "雨"
         },
         {
-          "datetime": "2024-06-29",
-          "tempmax": 28,
-          "tempmin": 22,
-          "conditions": "雨"
-        }  
+            "datetime": "2024-06-29",
+            "tempmax": 28,
+            "tempmin": 22,
+            "conditions": "雨"
+        },
+        {
+            "datetime": "2024-06-30",
+            "tempmax": 32,
+            "tempmin": 23,
+            "conditions": "多云"
+        }
     ]
-  }
+}
