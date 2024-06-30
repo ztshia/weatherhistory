@@ -1,0 +1,53 @@
+name: Fetch Realtime Weather Data
+
+on:
+  schedule:
+    - cron: '0 * * * *' # 每小时运行一次
+  workflow_dispatch: # 手动触发
+
+jobs:
+  fetch_realtime_weather:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    - name: Run weather fetch script
+      run: python fetch_realtime_weather.py
+      env:
+        API_KEY: ${{ secrets.API_KEY }}
+
+    - name: List directory contents
+      run: ls -la
+
+    - name: Check if file exists
+      id: check_file
+      run: |
+        if [ -f realtime_weather.json ]; then
+          echo "realtime_weather.json exists."
+          echo "file_exists=true" >> $GITHUB_ENV
+        else:
+          echo "realtime_weather.json does not exist."
+          echo "file_exists=false" >> $GITHUB_ENV
+
+    - name: Commit and push changes
+      if: env.file_exists == 'true'
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add realtime_weather.json
+        git commit -m 'Update realtime weather data'
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
