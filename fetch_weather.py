@@ -52,6 +52,10 @@ def extract_today_weather(weather_data, use_day=True):
 
 def main():
     api_key = os.getenv('API_KEY')
+    if not api_key:
+        print("API key not found.")
+        return
+
     api_url = f"https://restapi.amap.com/v3/weather/weatherInfo?key={api_key}&city=340104&extensions=all"
     file_path = "historical_weather.json"
 
