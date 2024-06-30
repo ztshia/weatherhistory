@@ -66,6 +66,8 @@ def main():
     api_url = f"https://restapi.amap.com/v3/weather/weatherInfo?key={api_key}&city=340104&extensions=all"
     file_path = "historical_weather.json"
 
+    print(f"Current working directory: {os.getcwd()}")
+
     weather_data = fetch_weather(api_url)
     if weather_data:
         print("Weather data fetched successfully.")
