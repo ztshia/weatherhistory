@@ -39,6 +39,11 @@
             "reporttime": "2024-06-30 23:01:32",
             "weather": "多云",
             "temperature": "26"
+        },
+        {
+            "reporttime": "2024-07-01 00:01:39",
+            "weather": "多云",
+            "temperature": "25"
         }
     ]
 }
