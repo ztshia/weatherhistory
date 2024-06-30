@@ -16,6 +16,7 @@ def fetch_weather(api_url):
 
 def save_weather_data(file_path, new_data):
     if os.path.exists(file_path):
+        print(f"{file_path} already exists.")
         with open(file_path, 'r', encoding='utf-8') as file:
             data = json.load(file)
     else:
