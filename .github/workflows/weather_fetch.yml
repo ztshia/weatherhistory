@@ -26,6 +26,9 @@ jobs:
     - name: Run weather fetch script
       run: python fetch_weather.py
 
+    - name: List directory contents
+      run: ls -la
+
     - name: Commit and push changes
       run: |
         git config --global user.name 'github-actions[bot]'

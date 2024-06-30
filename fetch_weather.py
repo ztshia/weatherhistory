@@ -26,6 +26,12 @@ def save_weather_data(file_path, new_data):
     with open(file_path, 'w', encoding='utf-8') as file:
         json.dump(data, file, ensure_ascii=False, indent=4)
 
+    # 确保文件被创建
+    if os.path.exists(file_path):
+        print(f"{file_path} created successfully.")
+    else:
+        print(f"Failed to create {file_path}.")
+
 def extract_today_weather(weather_data, use_day=True):
     try:
         date_str = datetime.datetime.now().strftime('%Y-%m-%d')
