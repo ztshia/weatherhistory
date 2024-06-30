@@ -11,17 +11,12 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4 # 确保使用最新版本
+      uses: actions/checkout@v4
 
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v4.7.0 # 更新到最新版本，确保支持 Node.js 20
       with:
         python-version: '3.x'
-
-    - name: Use Node.js 20
-      uses: actions/setup-node@v3
-      with:
-        node-version: '20'
 
     - name: Install dependencies
       run: |
