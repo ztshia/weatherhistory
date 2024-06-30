@@ -67,8 +67,10 @@ def main():
 
     weather_data = fetch_weather(api_url)
     if weather_data:
+        print("Weather data fetched successfully.")
         today_weather = extract_today_weather(weather_data, use_day=True)
         if today_weather:
+            print("Today's weather data extracted successfully.")
             save_weather_data(file_path, today_weather)
             print(f"Weather data for {today_weather['datetime']} saved successfully.")
         else:
