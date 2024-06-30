@@ -4,7 +4,7 @@ import os
 from datetime import datetime
 
 def fetch_weather(api_key, city_code):
-    url = f"https://restapi.amap.com/v3/weather/weatherInfo?key={api_key}&city={city_code}"
+    url = f"https://restapi.amap.com/v3/weather/weatherInfo?key={api_key}&city=340104"
     response = requests.get(url)
     return response.json()
 
@@ -18,7 +18,6 @@ def extract_realtime_weather(weather_data):
 
 def main():
     api_key = os.getenv("API_KEY")
-    city_code = "340104"
     
     weather_data = fetch_weather(api_key, city_code)
     
