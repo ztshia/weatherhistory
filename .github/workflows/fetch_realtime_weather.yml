@@ -37,9 +37,10 @@ jobs:
         if [ -f realtime_weather.json ]; then
           echo "realtime_weather.json exists."
           echo "file_exists=true" >> $GITHUB_ENV
-        else:
+        else
           echo "realtime_weather.json does not exist."
           echo "file_exists=false" >> $GITHUB_ENV
+        fi
 
     - name: Commit and push changes
       if: env.file_exists == 'true'
