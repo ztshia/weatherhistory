@@ -8,7 +8,7 @@ def fetch_weather(api_url):
         response = requests.get(api_url)
         response.raise_for_status()  # 检查HTTP错误
         data = response.json()
-        print("API response:", data)  # 打印API返回的数据
+        print("API response:", json.dumps(data, ensure_ascii=False, indent=4))  # 打印API返回的数据
         return data
     except requests.exceptions.RequestException as e:
         print(f"HTTP请求失败: {e}")
@@ -20,6 +20,7 @@ def save_weather_data(file_path, new_data):
             data = json.load(file)
     else:
         data = {"days": []}
+        print(f"{file_path} not found. Creating new file.")
 
     data["days"].append(new_data)
 
