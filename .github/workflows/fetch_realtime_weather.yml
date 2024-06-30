@@ -2,7 +2,7 @@ name: Fetch Realtime Weather Data
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '5 * * * *'
   workflow_dispatch: # 手动触发
 
 jobs:
