@@ -25,20 +25,25 @@ jobs:
 
     - name: Run weather fetch script
       run: python fetch_weather.py
+      env:
+        API_KEY: ${{ secrets.API_KEY }}
 
     - name: List directory contents
       run: ls -la
 
     - name: Check if file exists
+      id: check_file
       run: |
         if [ -f historical_weather.json ]; then
           echo "historical_weather.json exists."
+          echo "::set-output name=file_exists::true"
         else:
           echo "historical_weather.json does not exist."
+          echo "::set-output name=file_exists::false"
         fi
 
     - name: Commit and push changes
-      if: success() && steps.check_if_file_exists.outputs.file_exists == 'true'
+      if: steps.check_file.outputs.file_exists == 'true'
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'

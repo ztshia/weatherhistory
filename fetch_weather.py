@@ -64,6 +64,8 @@ def main():
         print("API key not found.")
         return
 
+    print(f"Using API key: {api_key}")  # 打印API密钥以确保它被正确设置
+
     api_url = f"https://restapi.amap.com/v3/weather/weatherInfo?key={api_key}&city=340104&extensions=all"
     file_path = "historical_weather.json"
 
