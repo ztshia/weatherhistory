@@ -129,6 +129,11 @@
             "reporttime": "2024-07-01 14:01:36",
             "weather": "阴",
             "temperature": "32"
+        },
+        {
+            "reporttime": "2024-07-01 14:33:59",
+            "weather": "中雨",
+            "temperature": "32"
         }
     ]
 }
