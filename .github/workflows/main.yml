@@ -2,12 +2,12 @@ name: Fetch Mastodon Statuses
 
 on:
   schedule:
-    - cron: "0 * * * *"  # 每小时运行一次
-  workflow_dispatch:  # 手动触发
+    - cron: "0 * * * *"  # Run every hour
+  workflow_dispatch:  # Manual trigger
 
 jobs:
   fetch_statuses:
-     runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
@@ -32,7 +32,7 @@ jobs:
         echo "Listing files in the current directory:"
         ls -al
         echo "Searching for status.json:"
-        find . -name 'status.json'  # 查找status.json文件
+        find . -name 'status.json'
         if [ -f status.json ]; then
           echo "status.json found! Content:"
           cat status.json
@@ -46,7 +46,7 @@ jobs:
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
         echo "Adding status.json to git"
-        ls -al  # 列出当前目录内容
+        ls -al
         find . -name 'status.json'
         git add status.json || echo "status.json not found for git add"
         git commit -m 'Update status.json' || echo "No changes to commit"
