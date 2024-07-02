@@ -1,36 +1,63 @@
-name: Fetch Weather Data
+import datetime
 
-on:
-  schedule:
-    - cron: '0 0 * * *' # 每天午夜执行一次
-  workflow_dispatch: # 手动触发
+def fetch_weather(api_url):
+    response = requests.get(api_url)
+    if response.status_code == 200:
+    try:
+        response = requests.get(api_url)
+        response.raise_for_status()  # 检查HTTP错误
+        return response.json()
+    else:
+        print("Failed to retrieve data")
+    except requests.exceptions.RequestException as e:
+        print(f"HTTP请求失败: {e}")
+        return None
 
-jobs:
-  fetch_weather:
-    runs-on: ubuntu-latest
+def save_weather_data(file_path, new_data):
 
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+@@ -24,24 +25,27 @@ def save_weather_data(file_path, new_data):
+        json.dump(data, file, ensure_ascii=False, indent=4)
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.x'
+def extract_today_weather(weather_data, use_day=True):
+    date_str = datetime.datetime.now().strftime('%Y-%m-%d')
+    for forecast in weather_data["forecasts"]:
+        for cast in forecast["casts"]:
+            if cast["date"] == date_str:
+                if use_day:
+                    return {
+                        "datetime": cast["date"],
+                        "tempmax": int(cast["daytemp"]),
+                        "tempmin": int(cast["nighttemp"]),
+                        "conditions": cast["dayweather"]
+                    }
+                else:
+                    return {
+                        "datetime": cast["date"],
+                        "tempmax": int(cast["daytemp"]),
+                        "tempmin": int(cast["nighttemp"]),
+                        "conditions": cast["nightweather"]
+                    }
+    try:
+        date_str = datetime.datetime.now().strftime('%Y-%m-%d')
+        for forecast in weather_data["forecasts"]:
+            for cast in forecast["casts"]:
+                if cast["date"] == date_str:
+                    if use_day:
+                        return {
+                            "datetime": cast["date"],
+                            "tempmax": int(cast["daytemp"]),
+                            "tempmin": int(cast["nighttemp"]),
+                            "conditions": cast["dayweather"]
+                        }
+                    else:
+                        return {
+                            "datetime": cast["date"],
+                            "tempmax": int(cast["daytemp"]),
+                            "tempmin": int(cast["nighttemp"]),
+                            "conditions": cast["nightweather"]
+                        }
+    except KeyError as e:
+        print(f"关键字段缺失: {e}")
+    return None
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests
-    - name: Run weather fetch script
-      run: python fetch_weather.py
-
-    - name: Commit and push changes
-      run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add historical_weather.json
-        git commit -m 'Update weather data'
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+def main():
