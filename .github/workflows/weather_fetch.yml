@@ -36,14 +36,14 @@ jobs:
       run: |
         if [ -f historical_weather.json ]; then
           echo "historical_weather.json exists."
-          echo "file_exists=true" >> $GITHUB_ENV
-        else
+          echo "::set-output name=file_exists::true"
+        else:
           echo "historical_weather.json does not exist."
-          echo "file_exists=false" >> $GITHUB_ENV
+          echo "::set-output name=file_exists::false"
         fi
 
     - name: Commit and push changes
-      if: env.file_exists == 'true'
+      if: steps.check_file.outputs.file_exists == 'true'
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
