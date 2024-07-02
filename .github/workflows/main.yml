@@ -31,6 +31,7 @@ jobs:
       run: |
         echo "Listing files in the current directory:"
         ls -al
+        find . -name 'status.json'  # 查找status.json文件
         if [ -f status.json ]; then
           echo "status.json content:"
           cat status.json
@@ -39,7 +40,7 @@ jobs:
         fi
 
     - name: Commit and push changes
-      if: success() && steps.fetch-statuses.outputs.status_json_exists == 'true'
+      if: success() && steps.fetch_statuses.outputs.status_json_exists == 'true'
       run: |
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
