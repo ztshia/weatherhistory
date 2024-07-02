@@ -15,13 +15,20 @@ def fetch_statuses(base_url, access_token, username):
     }
     lookup_response = requests.get(lookup_url, headers=headers, params=params)
 
+    print(f"Lookup response status code: {lookup_response.status_code}")
+    print(f"Lookup response content: {lookup_response.text}")
+
     if lookup_response.status_code == 200:
         user_data = lookup_response.json()
         user_id = user_data['id']
+        print(f"User ID: {user_id}")
 
         # 获取用户消息
         statuses_url = f"{base_url}/api/v1/accounts/{user_id}/statuses"
         statuses_response = requests.get(statuses_url, headers=headers)
+
+        print(f"Statuses response status code: {statuses_response.status_code}")
+        print(f"Statuses response content: {statuses_response.text}")
 
         if statuses_response.status_code == 200:
             statuses = statuses_response.json()
