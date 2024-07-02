@@ -25,12 +25,11 @@ jobs:
 
     - name: Fetch Mastodon statuses
       run: |
-        echo "Access Token: ${{ secrets.MASTODON_ACCESS_TOKEN }}"
-        echo "Username: ${{ secrets.MASTODON_USERNAME }}"
+        echo "Using direct access token and username"
         python fetch_mastodon_status.py
       env:
-        MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
-        MASTODON_USERNAME: ${{ secrets.MASTODON_USERNAME }}
+        MASTODON_ACCESS_TOKEN: "your_access_token_here"
+        MASTODON_USERNAME: "your_username_here"
 
     - name: List files in the repository
       run: |
