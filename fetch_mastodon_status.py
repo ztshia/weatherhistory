@@ -1,9 +1,11 @@
 # -*- coding: utf-8 -*-
 import requests
 import json
-import os
 
-def fetch_statuses(base_url, access_token, username):
+def fetch_statuses(base_url):
+    access_token = "your_access_token_here"
+    username = "your_username_here"
+
     headers = {
         "Authorization": f"Bearer {access_token}"
     }
@@ -20,7 +22,7 @@ def fetch_statuses(base_url, access_token, username):
 
     if lookup_response.status_code == 200:
         user_data = lookup_response.json()
-        user_id = user_data['id']
+        user_id = user_data[0]['id']  # Assuming the first user in the list
         print(f"User ID: {user_id}")
 
         # 获取用户消息
@@ -37,21 +39,12 @@ def fetch_statuses(base_url, access_token, username):
             with open(file_path, 'w', encoding='utf-8') as f:
                 json.dump(statuses, f, ensure_ascii=False, indent=4)
             print(f"消息已保存到 {file_path}")
-            print(f"当前目录：{os.getcwd()}")
-            print(f"文件内容：")
-            with open(file_path, 'r', encoding='utf-8') as f:
-                print(f.read())
         else:
             print("Failed to fetch statuses:", statuses_response.status_code, statuses_response.text)
     else:
         print("Failed to lookup user:", lookup_response.status_code, lookup_response.text)
 
 if __name__ == "__main__":
-    # 从环境变量中获取 Mastodon 实例、访问令牌和用户名
     base_url = "https://c7.io"
-    access_token = os.getenv("MASTODON_ACCESS_TOKEN")
-    username = os.getenv("MASTODON_USERNAME")
-    print(f"Access Token: {access_token}")
-    print(f"Username: {username}")
-    print(f"Fetching statuses for {username} from {base_url}")
-    fetch_statuses(base_url, access_token, username)
+    print(f"Fetching statuses from {base_url}")
+    fetch_statuses(base_url)
