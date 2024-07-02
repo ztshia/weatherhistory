@@ -51,5 +51,4 @@ def fetch_statuses(base_url):
 
 if __name__ == "__main__":
     base_url = "https://c7.io"
-    print(f"Fetching statuses from {base_url}")
-    fetch_statuses(base_url)
+    print(f"Fetching statuses from
