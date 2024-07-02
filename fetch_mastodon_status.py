@@ -1,10 +1,15 @@
 # -*- coding: utf-8 -*-
+import os
 import requests
 import json
 
 def fetch_statuses(base_url):
-    access_token = "MUQNv1ipVshzke6WnMlPWsWmnLw59phkNs5l5pHITh4"
-    username = "cue"
+    access_token = os.getenv("MASTODON_ACCESS_TOKEN")
+    username = os.getenv("MASTODON_USERNAME")
+
+    if not access_token or not username:
+        print("Error: MASTODON_ACCESS_TOKEN and MASTODON_USERNAME must be set")
+        return
 
     headers = {
         "Authorization": f"Bearer {access_token}"
@@ -22,7 +27,7 @@ def fetch_statuses(base_url):
 
     if lookup_response.status_code == 200:
         user_data = lookup_response.json()
-        user_id = user_data['id']  # Correctly accessing 'id' from user_data dictionary
+        user_id = user_data['id']
         print(f"User ID: {user_id}")
 
         # 获取用户消息
