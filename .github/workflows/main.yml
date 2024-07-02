@@ -31,9 +31,10 @@ jobs:
       run: |
         echo "Listing files in the current directory:"
         ls -al
+        echo "Searching for status.json:"
         find . -name 'status.json'  # 查找status.json文件
         if [ -f status.json ]; then
-          echo "status.json content:"
+          echo "status.json found! Content:"
           cat status.json
         else
           echo "status.json not found!"
@@ -41,8 +42,11 @@ jobs:
 
     - name: Commit and push changes
       run: |
+        echo "Configuring git user"
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
+        echo "Adding status.json to git"
+        ls -al  # 列出当前目录内容
         git add status.json
         git commit -m 'Update status.json'
         git push
