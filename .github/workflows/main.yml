@@ -27,6 +27,11 @@ jobs:
       run: |
         python fetch_mastodon_status.py
 
+    - name: List files in the repository
+      run: |
+        ls -al
+        cat status.json  # 输出文件内容以调试
+
     - name: Commit and push changes
       run: |
         git config --global user.name 'github-actions'
