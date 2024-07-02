@@ -11,12 +11,12 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3  # 更新为支持Node.js 20的版本
+      uses: actions/checkout@v3
 
     - name: Set up Python
-      uses: actions/setup-python@v4.8.0  # 更新为支持Node.js 20的版本
+      uses: actions/setup-python@v4.8.0
       with:
-        python-version: '3.x'  # 确保与Python版本要求匹配
+        python-version: '3.x'
 
     - name: Install dependencies
       run: |
@@ -26,6 +26,9 @@ jobs:
     - name: Fetch Mastodon statuses
       run: |
         python fetch_mastodon_status.py
+      env:
+        MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+        MASTODON_USERNAME: ${{ secrets.MASTODON_USERNAME }}
 
     - name: List files in the repository
       run: |
