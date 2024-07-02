@@ -22,7 +22,7 @@ def fetch_statuses(base_url):
 
     if lookup_response.status_code == 200:
         user_data = lookup_response.json()
-        user_id = user_data[0]['id']  # Assuming the first user in the list
+        user_id = user_data['id']  # Correctly accessing 'id' from user_data dictionary
         print(f"User ID: {user_id}")
 
         # 获取用户消息
