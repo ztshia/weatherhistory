@@ -3,8 +3,8 @@ import requests
 import json
 
 def fetch_statuses(base_url):
-    access_token = "your_access_token_here"
-    username = "your_username_here"
+    access_token = "MUQNv1ipVshzke6WnMlPWsWmnLw59phkNs5l5pHITh4"
+    username = "cue"
 
     headers = {
         "Authorization": f"Bearer {access_token}"
