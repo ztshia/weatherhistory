@@ -26,9 +26,10 @@ def fetch_statuses(base_url, access_token, username):
         if statuses_response.status_code == 200:
             statuses = statuses_response.json()
             # 将返回的JSON数据保存到文件
-            with open('status.json', 'w', encoding='utf-8') as f:
+            file_path = 'status.json'
+            with open(file_path, 'w', encoding='utf-8') as f:
                 json.dump(statuses, f, ensure_ascii=False, indent=4)
-            print("消息已保存到 status.json")
+            print(f"消息已保存到 {file_path}")
         else:
             print("Failed to fetch statuses:", statuses_response.status_code, statuses_response.text)
     else:
