@@ -1,55 +1,55 @@
-name: Fetch Mastodon Statuses
+# -*- coding: utf-8 -*-
+import requests
+import json
+import os
 
-on:
-  schedule:
-    - cron: "0 * * * *"  # 每小时运行一次
-  workflow_dispatch:  # 手动触发
+def fetch_statuses(base_url, access_token, username):
+    headers = {
+        "Authorization": f"Bearer {access_token}"
+    }
 
-jobs:
-  fetch_statuses:
-    runs-on: ubuntu-latest
+    # 获取用户ID
+    lookup_url = f"{base_url}/api/v1/accounts/lookup"
+    params = {
+        "acct": username
+    }
+    lookup_response = requests.get(lookup_url, headers=headers, params=params)
 
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+    print(f"Lookup response status code: {lookup_response.status_code}")
+    print(f"Lookup response content: {lookup_response.text}")
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.x'
+    if lookup_response.status_code == 200:
+        user_data = lookup_response.json()
+        user_id = user_data['id']
+        print(f"User ID: {user_id}")
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests
+        # 获取用户消息
+        statuses_url = f"{base_url}/api/v1/accounts/{user_id}/statuses"
+        statuses_response = requests.get(statuses_url, headers=headers)
 
-    - name: Fetch Mastodon statuses
-      run: |
-        python fetch_mastodon_status.py
+        print(f"Statuses response status code: {statuses_response.status_code}")
+        print(f"Statuses response content: {statuses_response.text}")
 
-    - name: List files in the repository
-      run: |
-        echo "Listing files in the current directory:"
-        ls -al
-        echo "Searching for status.json:"
-        find . -name 'status.json'  # 查找status.json文件
-        if [ -f status.json ]; then
-          echo "status.json found! Content:"
-          cat status.json
-        else
-          echo "status.json not found!"
-        fi
+        if statuses_response.status_code == 200:
+            statuses = statuses_response.json()
+            # 将返回的JSON数据保存到文件
+            file_path = 'status.json'
+            with open(file_path, 'w', encoding='utf-8') as f:
+                json.dump(statuses, f, ensure_ascii=False, indent=4)
+            print(f"消息已保存到 {file_path}")
+            print(f"当前目录：{os.getcwd()}")
+            print(f"文件内容：")
+            with open(file_path, 'r', encoding='utf-8') as f:
+                print(f.read())
+        else:
+            print("Failed to fetch statuses:", statuses_response.status_code, statuses_response.text)
+    else:
+        print("Failed to lookup user:", lookup_response.status_code, lookup_response.text)
 
-    - name: Commit and push changes
-      run: |
-        echo "Configuring git user"
-        git config --global user.name 'github-actions'
-        git config --global user.email 'github-actions@github.com'
-        echo "Adding status.json to git"
-        ls -al  # 列出当前目录内容
-        find . -name 'status.json'
-        git add status.json || echo "status.json not found for git add"
-        git commit -m 'Update status.json' || echo "No changes to commit"
-        git push || echo "No changes to push"
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+if __name__ == "__main__":
+    # 从环境变量中获取 Mastodon 实例、访问令牌和用户名
+    base_url = "https://c7.io"
+    access_token = os.getenv("MASTODON_ACCESS_TOKEN")
+    username = os.getenv("MASTODON_USERNAME")
+    print(f"Fetching statuses for {username} from {base_url}")
+    fetch_statuses(base_url, access_token, username)
