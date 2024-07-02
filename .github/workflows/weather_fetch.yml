@@ -1,55 +1,36 @@
-name: Fetch Mastodon Statuses
+name: Fetch Weather Data
 
 on:
   schedule:
-    - cron: "0 * * * *"  # Run every hour
-  workflow_dispatch:  # Manual trigger
+    - cron: '0 0 * * *' # 每天午夜执行一次
+  workflow_dispatch: # 手动触发
 
 jobs:
-  fetch_statuses:
+  fetch_weather:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3  # Update to a version that supports Node.js 20
+      uses: actions/checkout@v2
 
     - name: Set up Python
-      uses: actions/setup-python@v4.8.0  # Update to the latest version supporting Node.js 20
+      uses: actions/setup-python@v2
       with:
-        python-version: '3.x'  # Ensure this matches your Python version requirement
+        python-version: '3.x'
 
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install requests
-
-    - name: Fetch Mastodon statuses
-      run: |
-        python fetch_mastodon_status.py
-
-    - name: List files in the repository
-      run: |
-        echo "Listing files in the current directory:"
-        ls -al
-        echo "Searching for status.json:"
-        find . -name 'status.json'
-        if [ -f status.json ]; then
-          echo "status.json found! Content:"
-          cat status.json
-        else
-          echo "status.json not found!"
-        fi
+    - name: Run weather fetch script
+      run: python fetch_weather.py
 
     - name: Commit and push changes
       run: |
-        echo "Configuring git user"
-        git config --global user.name 'github-actions'
-        git config --global user.email 'github-actions@github.com'
-        echo "Adding status.json to git"
-        ls -al
-        find . -name 'status.json'
-        git add status.json || echo "status.json not found for git add"
-        git commit -m 'Update status.json' || echo "No changes to commit"
-        git push || echo "No changes to push"
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add historical_weather.json
+        git commit -m 'Update weather data'
+        git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
