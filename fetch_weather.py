@@ -2,6 +2,7 @@ import os
 import requests
 import json
 import datetime
+import pytz
 
 def fetch_weather(api_url):
     try:
@@ -36,7 +37,8 @@ def save_weather_data(file_path, new_data):
 
 def extract_today_weather(weather_data, use_day=True):
     try:
-        date_str = datetime.datetime.now().strftime('%Y-%m-%d')
+        timezone = pytz.timezone('Asia/Shanghai')
+        date_str = datetime.datetime.now(timezone).strftime('%Y-%m-%d')
         for forecast in weather_data["forecasts"]:
             for cast in forecast["casts"]:
                 if cast["date"] == date_str:
