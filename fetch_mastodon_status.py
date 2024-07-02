@@ -35,7 +35,7 @@ def fetch_statuses(base_url, access_token, username):
 
 if __name__ == "__main__":
     # 从环境变量中获取 Mastodon 实例、访问令牌和用户名
-    base_url = "https://mastodon.social"
+    base_url = os.getenv("MASTODON_BASE_URL")
     access_token = os.getenv("MASTODON_ACCESS_TOKEN")
     username = os.getenv("MASTODON_USERNAME")
     fetch_statuses(base_url, access_token, username)
