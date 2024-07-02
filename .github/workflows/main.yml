@@ -40,7 +40,6 @@ jobs:
         fi
 
     - name: Commit and push changes
-      if: success() && steps.fetch_statuses.outputs.status_json_exists == 'true'
       run: |
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
