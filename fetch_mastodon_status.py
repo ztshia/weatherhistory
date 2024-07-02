@@ -39,4 +39,5 @@ if __name__ == "__main__":
     base_url = "https://c7.io"
     access_token = os.getenv("MASTODON_ACCESS_TOKEN")
     username = os.getenv("MASTODON_USERNAME")
+    print(f"Fetching statuses for {username} from {base_url}")
     fetch_statuses(base_url, access_token, username)
