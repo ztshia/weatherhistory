@@ -47,6 +47,7 @@ jobs:
         git config --global user.email 'github-actions@github.com'
         echo "Adding status.json to git"
         ls -al  # 列出当前目录内容
+        find . -name 'status.json'
         git add status.json
         git commit -m 'Update status.json'
         git push
