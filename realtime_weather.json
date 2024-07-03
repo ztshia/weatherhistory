@@ -604,6 +604,11 @@
             "reporttime": "2024-07-03 15:34:12",
             "weather": "小雨",
             "temperature": "29"
+        },
+        {
+            "reporttime": "2024-07-03 16:01:36",
+            "weather": "阵雨",
+            "temperature": "30"
         }
     ]
 }
