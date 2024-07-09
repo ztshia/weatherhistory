@@ -1999,6 +1999,11 @@
             "reporttime": "2024-07-09 19:01:50",
             "weather": "阴",
             "temperature": "29"
+        },
+        {
+            "reporttime": "2024-07-09 20:01:31",
+            "weather": "阴",
+            "temperature": "28"
         }
     ]
 }
