@@ -5519,6 +5519,12 @@
             "tempmax": 35,
             "tempmin": 26,
             "conditions": "阴"
+        },
+        {
+            "datetime": "2024-07-09",
+            "tempmax": 32,
+            "tempmin": 25,
+            "conditions": "中雨"
         }
     ]
 }
