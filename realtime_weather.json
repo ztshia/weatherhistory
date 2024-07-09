@@ -1989,6 +1989,11 @@
             "reporttime": "2024-07-09 18:34:08",
             "weather": "阴",
             "temperature": "30"
+        },
+        {
+            "reporttime": "2024-07-09 19:01:50",
+            "weather": "阴",
+            "temperature": "29"
         }
     ]
 }
