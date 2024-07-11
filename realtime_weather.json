@@ -2374,6 +2374,11 @@
             "reporttime": "2024-07-11 12:01:50",
             "weather": "雨",
             "temperature": "23"
+        },
+        {
+            "reporttime": "2024-07-11 12:34:02",
+            "weather": "雨",
+            "temperature": "23"
         }
     ]
 }
