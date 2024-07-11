@@ -5531,6 +5531,12 @@
             "tempmax": 27,
             "tempmin": 24,
             "conditions": "大雨"
+        },
+        {
+            "datetime": "2024-07-11",
+            "tempmax": 24,
+            "tempmin": 22,
+            "conditions": "暴雨"
         }
     ]
 }
