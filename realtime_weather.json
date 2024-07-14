@@ -3109,6 +3109,11 @@
             "reporttime": "2024-07-14 17:01:29",
             "weather": "大雨",
             "temperature": "26"
+        },
+        {
+            "reporttime": "2024-07-14 18:01:29",
+            "weather": "阴",
+            "temperature": "26"
         }
     ]
 }
