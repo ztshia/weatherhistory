@@ -3334,6 +3334,11 @@
             "reporttime": "2024-07-15 18:01:33",
             "weather": "阴",
             "temperature": "30"
+        },
+        {
+            "reporttime": "2024-07-15 18:34:03",
+            "weather": "阴",
+            "temperature": "30"
         }
     ]
 }
