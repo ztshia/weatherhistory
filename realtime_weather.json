@@ -3624,6 +3624,11 @@
             "reporttime": "2024-07-17 00:34:01",
             "weather": "阴",
             "temperature": "29"
+        },
+        {
+            "reporttime": "2024-07-17 01:01:29",
+            "weather": "阴",
+            "temperature": "28"
         }
     ]
 }
