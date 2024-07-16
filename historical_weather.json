@@ -5561,6 +5561,12 @@
             "tempmax": 32,
             "tempmin": 25,
             "conditions": "阴"
+        },
+        {
+            "datetime": "2024-07-16",
+            "tempmax": 32,
+            "tempmin": 27,
+            "conditions": "阴"
         }
     ]
 }
