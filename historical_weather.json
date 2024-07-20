@@ -5585,6 +5585,12 @@
             "tempmax": 33,
             "tempmin": 27,
             "conditions": "多云"
+        },
+        {
+            "datetime": "2024-07-20",
+            "tempmax": 31,
+            "tempmin": 28,
+            "conditions": "小雨"
         }
     ]
 }
