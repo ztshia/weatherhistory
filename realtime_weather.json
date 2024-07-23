@@ -5154,6 +5154,11 @@
             "reporttime": "2024-07-23 19:02:00",
             "weather": "晴",
             "temperature": "34"
+        },
+        {
+            "reporttime": "2024-07-23 20:01:30",
+            "weather": "晴",
+            "temperature": "33"
         }
     ]
 }
