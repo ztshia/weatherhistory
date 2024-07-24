@@ -5484,6 +5484,11 @@
             "reporttime": "2024-07-25 06:04:04",
             "weather": "晴",
             "temperature": "28"
+        },
+        {
+            "reporttime": "2024-07-25 06:34:05",
+            "weather": "多云",
+            "temperature": "28"
         }
     ]
 }
