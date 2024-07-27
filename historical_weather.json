@@ -5627,6 +5627,12 @@
             "tempmax": 33,
             "tempmin": 27,
             "conditions": "小雨"
+        },
+        {
+            "datetime": "2024-07-27",
+            "tempmax": 30,
+            "tempmin": 26,
+            "conditions": "中雨"
         }
     ]
 }
