@@ -6044,6 +6044,11 @@
             "reporttime": "2024-07-27 18:01:29",
             "weather": "阴",
             "temperature": "29"
+        },
+        {
+            "reporttime": "2024-07-27 18:31:51",
+            "weather": "中雨",
+            "temperature": "29"
         }
     ]
 }
