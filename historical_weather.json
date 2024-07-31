@@ -5651,6 +5651,12 @@
             "tempmax": 37,
             "tempmin": 27,
             "conditions": "晴"
+        },
+        {
+            "datetime": "2024-07-31",
+            "tempmax": 36,
+            "tempmin": 27,
+            "conditions": "晴"
         }
     ]
 }
