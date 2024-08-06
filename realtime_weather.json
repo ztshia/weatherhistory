@@ -8284,6 +8284,11 @@
             "reporttime": "2024-08-06 17:01:29",
             "weather": "大雨",
             "temperature": "27"
+        },
+        {
+            "reporttime": "2024-08-06 17:31:50",
+            "weather": "小雨",
+            "temperature": "27"
         }
     ]
 }
