@@ -8804,6 +8804,11 @@
             "reporttime": "2024-08-09 00:01:34",
             "weather": "多云",
             "temperature": "29"
+        },
+        {
+            "reporttime": "2024-08-09 00:31:35",
+            "weather": "晴",
+            "temperature": "29"
         }
     ]
 }
