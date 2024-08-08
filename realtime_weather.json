@@ -8734,6 +8734,11 @@
             "reporttime": "2024-08-08 17:01:28",
             "weather": "中雨",
             "temperature": "36"
+        },
+        {
+            "reporttime": "2024-08-08 17:31:54",
+            "weather": "大雨",
+            "temperature": "35"
         }
     ]
 }
