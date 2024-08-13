@@ -5729,6 +5729,12 @@
             "tempmax": 38,
             "tempmin": 26,
             "conditions": "晴"
+        },
+        {
+            "datetime": "2024-08-13",
+            "tempmax": 35,
+            "tempmin": 24,
+            "conditions": "小雨"
         }
     ]
 }
