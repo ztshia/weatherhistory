@@ -10034,6 +10034,11 @@
             "reporttime": "2024-08-14 12:02:12",
             "weather": "阴",
             "temperature": "30"
+        },
+        {
+            "reporttime": "2024-08-14 12:31:45",
+            "weather": "中雨",
+            "temperature": "31"
         }
     ]
 }
