@@ -5795,6 +5795,12 @@
             "tempmax": 36,
             "tempmin": 26,
             "conditions": "多云"
+        },
+        {
+            "datetime": "2024-08-24",
+            "tempmax": 36,
+            "tempmin": 26,
+            "conditions": "多云"
         }
     ]
 }
