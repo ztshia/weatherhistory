@@ -12554,6 +12554,11 @@
             "reporttime": "2024-08-25 17:01:28",
             "weather": "多云",
             "temperature": "36"
+        },
+        {
+            "reporttime": "2024-08-25 18:01:31",
+            "weather": "多云",
+            "temperature": "35"
         }
     ]
 }
