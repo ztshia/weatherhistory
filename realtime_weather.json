@@ -13799,6 +13799,11 @@
             "reporttime": "2024-08-31 06:01:26",
             "weather": "晴",
             "temperature": "26"
+        },
+        {
+            "reporttime": "2024-08-31 06:33:48",
+            "weather": "多云",
+            "temperature": "27"
         }
     ]
 }
