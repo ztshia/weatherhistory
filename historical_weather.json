@@ -5867,6 +5867,12 @@
             "tempmax": 34,
             "tempmin": 26,
             "conditions": "晴"
+        },
+        {
+            "datetime": "2024-09-05",
+            "tempmax": 36,
+            "tempmin": 26,
+            "conditions": "多云"
         }
     ]
 }
