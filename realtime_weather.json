@@ -15244,6 +15244,11 @@
             "reporttime": "2024-09-06 18:33:44",
             "weather": "多云",
             "temperature": "27"
+        },
+        {
+            "reporttime": "2024-09-06 19:02:05",
+            "weather": "晴",
+            "temperature": "27"
         }
     ]
 }
