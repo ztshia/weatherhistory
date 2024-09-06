@@ -5873,6 +5873,12 @@
             "tempmax": 36,
             "tempmin": 26,
             "conditions": "多云"
+        },
+        {
+            "datetime": "2024-09-06",
+            "tempmax": 33,
+            "tempmin": 24,
+            "conditions": "阴"
         }
     ]
 }
