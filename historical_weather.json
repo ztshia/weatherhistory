@@ -5885,6 +5885,12 @@
             "tempmax": 35,
             "tempmin": 25,
             "conditions": "多云"
+        },
+        {
+            "datetime": "2024-09-08",
+            "tempmax": 34,
+            "tempmin": 25,
+            "conditions": "晴"
         }
     ]
 }
