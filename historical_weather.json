@@ -5903,6 +5903,12 @@
             "tempmax": 35,
             "tempmin": 25,
             "conditions": "多云"
+        },
+        {
+            "datetime": "2024-09-11",
+            "tempmax": 29,
+            "tempmin": 24,
+            "conditions": "暴雨"
         }
     ]
 }
