@@ -16294,6 +16294,11 @@
             "reporttime": "2024-09-11 12:02:05",
             "weather": "小雨",
             "temperature": "25"
+        },
+        {
+            "reporttime": "2024-09-11 12:33:51",
+            "weather": "中雨",
+            "temperature": "25"
         }
     ]
 }
