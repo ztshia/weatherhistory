@@ -5927,6 +5927,12 @@
             "tempmax": 31,
             "tempmin": 23,
             "conditions": "阴"
+        },
+        {
+            "datetime": "2024-09-15",
+            "tempmax": 27,
+            "tempmin": 20,
+            "conditions": "阴"
         }
     ]
 }
