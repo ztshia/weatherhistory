@@ -17819,6 +17819,11 @@
             "reporttime": "2024-09-18 06:33:52",
             "weather": "多云",
             "temperature": "24"
+        },
+        {
+            "reporttime": "2024-09-18 07:01:24",
+            "weather": "多云",
+            "temperature": "25"
         }
     ]
 }
