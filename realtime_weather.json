@@ -17634,6 +17634,11 @@
             "reporttime": "2024-09-17 12:02:16",
             "weather": "中雨",
             "temperature": "24"
+        },
+        {
+            "reporttime": "2024-09-17 12:33:52",
+            "weather": "大雨",
+            "temperature": "24"
         }
     ]
 }
