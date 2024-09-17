@@ -5939,6 +5939,12 @@
             "tempmax": 28,
             "tempmin": 21,
             "conditions": "多云"
+        },
+        {
+            "datetime": "2024-09-17",
+            "tempmax": 27,
+            "tempmin": 23,
+            "conditions": "大雨"
         }
     ]
 }
