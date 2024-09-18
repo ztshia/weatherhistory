@@ -17919,6 +17919,11 @@
             "reporttime": "2024-09-18 18:01:27",
             "weather": "大雨",
             "temperature": "27"
+        },
+        {
+            "reporttime": "2024-09-18 18:33:47",
+            "weather": "中雨",
+            "temperature": "27"
         }
     ]
 }
