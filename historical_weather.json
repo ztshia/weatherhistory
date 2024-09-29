@@ -6011,6 +6011,12 @@
             "tempmax": 29,
             "tempmin": 18,
             "conditions": "晴"
+        },
+        {
+            "datetime": "2024-09-29",
+            "tempmax": 31,
+            "tempmin": 21,
+            "conditions": "晴"
         }
     ]
 }
