@@ -20609,6 +20609,11 @@
             "reporttime": "2024-09-30 21:34:04",
             "weather": "阴",
             "temperature": "19"
+        },
+        {
+            "reporttime": "2024-09-30 22:01:27",
+            "weather": "阴",
+            "temperature": "18"
         }
     ]
 }
