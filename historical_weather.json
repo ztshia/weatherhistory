@@ -6023,6 +6023,12 @@
             "tempmax": 28,
             "tempmin": 15,
             "conditions": "小雨"
+        },
+        {
+            "datetime": "2024-10-01",
+            "tempmax": 21,
+            "tempmin": 11,
+            "conditions": "多云"
         }
     ]
 }
