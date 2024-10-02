@@ -21014,6 +21014,11 @@
             "reporttime": "2024-10-02 17:34:09",
             "weather": "晴",
             "temperature": "20"
+        },
+        {
+            "reporttime": "2024-10-02 18:01:25",
+            "weather": "多云",
+            "temperature": "19"
         }
     ]
 }
