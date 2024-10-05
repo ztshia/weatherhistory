@@ -21779,6 +21779,11 @@
             "reporttime": "2024-10-06 03:01:22",
             "weather": "小雨",
             "temperature": "18"
+        },
+        {
+            "reporttime": "2024-10-06 04:01:21",
+            "weather": "小雨",
+            "temperature": "17"
         }
     ]
 }
