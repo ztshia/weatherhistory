@@ -21954,6 +21954,11 @@
             "reporttime": "2024-10-06 23:01:24",
             "weather": "小雨",
             "temperature": "16"
+        },
+        {
+            "reporttime": "2024-10-06 23:34:01",
+            "weather": "阴",
+            "temperature": "16"
         }
     ]
 }
