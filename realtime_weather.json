@@ -22199,6 +22199,11 @@
             "reporttime": "2024-10-08 01:34:03",
             "weather": "晴",
             "temperature": "12"
+        },
+        {
+            "reporttime": "2024-10-08 02:01:23",
+            "weather": "小雨",
+            "temperature": "11"
         }
     ]
 }
