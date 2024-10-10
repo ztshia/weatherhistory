@@ -6077,6 +6077,12 @@
             "tempmax": 24,
             "tempmin": 12,
             "conditions": "晴"
+        },
+        {
+            "datetime": "2024-10-10",
+            "tempmax": 25,
+            "tempmin": 12,
+            "conditions": "多云"
         }
     ]
 }
