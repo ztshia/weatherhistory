@@ -23069,6 +23069,11 @@
             "reporttime": "2024-10-12 00:31:24",
             "weather": "阴",
             "temperature": "16"
+        },
+        {
+            "reporttime": "2024-10-12 01:04:03",
+            "weather": "阴",
+            "temperature": "17"
         }
     ]
 }
