@@ -24524,6 +24524,11 @@
             "reporttime": "2024-10-18 17:01:27",
             "weather": "多云",
             "temperature": "21"
+        },
+        {
+            "reporttime": "2024-10-18 17:34:01",
+            "weather": "多云",
+            "temperature": "20"
         }
     ]
 }
