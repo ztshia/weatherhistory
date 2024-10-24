@@ -25929,6 +25929,11 @@
             "reporttime": "2024-10-25 02:01:22",
             "weather": "多云",
             "temperature": "10"
+        },
+        {
+            "reporttime": "2024-10-25 02:33:52",
+            "weather": "阴",
+            "temperature": "10"
         }
     ]
 }
