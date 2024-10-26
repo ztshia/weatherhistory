@@ -6173,6 +6173,12 @@
             "tempmax": 22,
             "tempmin": 13,
             "conditions": "多云"
+        },
+        {
+            "datetime": "2024-10-26",
+            "tempmax": 18,
+            "tempmin": 14,
+            "conditions": "阴"
         }
     ]
 }
