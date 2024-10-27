@@ -26424,6 +26424,11 @@
             "reporttime": "2024-10-27 07:01:24",
             "weather": "多云",
             "temperature": "16"
+        },
+        {
+            "reporttime": "2024-10-27 08:33:51",
+            "weather": "阴",
+            "temperature": "17"
         }
     ]
 }
