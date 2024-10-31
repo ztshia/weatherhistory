@@ -6203,6 +6203,12 @@
             "tempmax": 22,
             "tempmin": 11,
             "conditions": "晴"
+        },
+        {
+            "datetime": "2024-10-31",
+            "tempmax": 22,
+            "tempmin": 13,
+            "conditions": "多云"
         }
     ]
 }
