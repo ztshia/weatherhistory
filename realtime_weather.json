@@ -27734,6 +27734,11 @@
             "reporttime": "2024-11-02 08:33:51",
             "weather": "晴",
             "temperature": "13"
+        },
+        {
+            "reporttime": "2024-11-02 10:01:26",
+            "weather": "晴",
+            "temperature": "19"
         }
     ]
 }
