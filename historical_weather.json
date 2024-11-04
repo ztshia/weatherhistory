@@ -6227,6 +6227,12 @@
             "tempmax": 23,
             "tempmin": 11,
             "conditions": "晴"
+        },
+        {
+            "datetime": "2024-11-04",
+            "tempmax": 21,
+            "tempmin": 7,
+            "conditions": "多云"
         }
     ]
 }
