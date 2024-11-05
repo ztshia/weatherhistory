@@ -6233,6 +6233,12 @@
             "tempmax": 21,
             "tempmin": 7,
             "conditions": "多云"
+        },
+        {
+            "datetime": "2024-11-05",
+            "tempmax": 19,
+            "tempmin": 5,
+            "conditions": "晴"
         }
     ]
 }
