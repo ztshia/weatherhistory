@@ -29299,6 +29299,11 @@
             "reporttime": "2024-11-09 10:33:57",
             "weather": "小雨",
             "temperature": "14"
+        },
+        {
+            "reporttime": "2024-11-09 11:01:21",
+            "weather": "雾",
+            "temperature": "15"
         }
     ]
 }
