@@ -6263,6 +6263,12 @@
             "tempmax": 16,
             "tempmin": 12,
             "conditions": "小雨"
+        },
+        {
+            "datetime": "2024-11-10",
+            "tempmax": 19,
+            "tempmin": 10,
+            "conditions": "多云"
         }
     ]
 }
