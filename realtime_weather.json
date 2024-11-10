@@ -29684,6 +29684,11 @@
             "reporttime": "2024-11-11 03:01:20",
             "weather": "雾",
             "temperature": "11"
+        },
+        {
+            "reporttime": "2024-11-11 04:01:23",
+            "weather": "雾",
+            "temperature": "11"
         }
     ]
 }
