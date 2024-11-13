@@ -30374,6 +30374,11 @@
             "reporttime": "2024-11-14 05:01:21",
             "weather": "雾",
             "temperature": "15"
+        },
+        {
+            "reporttime": "2024-11-14 06:01:22",
+            "weather": "雾",
+            "temperature": "14"
         }
     ]
 }
