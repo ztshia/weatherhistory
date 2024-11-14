@@ -6287,6 +6287,12 @@
             "tempmax": 23,
             "tempmin": 12,
             "conditions": "多云"
+        },
+        {
+            "datetime": "2024-11-14",
+            "tempmax": 25,
+            "tempmin": 15,
+            "conditions": "多云"
         }
     ]
 }
