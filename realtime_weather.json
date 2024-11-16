@@ -31009,6 +31009,11 @@
             "reporttime": "2024-11-17 03:01:24",
             "weather": "小雨",
             "temperature": "12"
+        },
+        {
+            "reporttime": "2024-11-17 04:01:23",
+            "weather": "雾",
+            "temperature": "11"
         }
     ]
 }
