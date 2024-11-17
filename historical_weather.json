@@ -6305,6 +6305,12 @@
             "tempmax": 19,
             "tempmin": 11,
             "conditions": "小雨"
+        },
+        {
+            "datetime": "2024-11-17",
+            "tempmax": 12,
+            "tempmin": 9,
+            "conditions": "小雨"
         }
     ]
 }
