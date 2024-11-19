@@ -6317,6 +6317,12 @@
             "tempmax": 13,
             "tempmin": 7,
             "conditions": "阴"
+        },
+        {
+            "datetime": "2024-11-19",
+            "tempmax": 11,
+            "tempmin": 8,
+            "conditions": "阴"
         }
     ]
 }
