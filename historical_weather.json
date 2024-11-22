@@ -6335,6 +6335,12 @@
             "tempmax": 16,
             "tempmin": 4,
             "conditions": "多云"
+        },
+        {
+            "datetime": "2024-11-22",
+            "tempmax": 16,
+            "tempmin": 5,
+            "conditions": "多云"
         }
     ]
 }
