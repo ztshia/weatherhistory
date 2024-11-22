@@ -32304,6 +32304,11 @@
             "reporttime": "2024-11-23 02:03:31",
             "weather": "雾",
             "temperature": "8"
+        },
+        {
+            "reporttime": "2024-11-23 02:33:31",
+            "weather": "雾",
+            "temperature": "8"
         }
     ]
 }
