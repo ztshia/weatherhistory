@@ -32319,6 +32319,11 @@
             "reporttime": "2024-11-23 03:31:22",
             "weather": "雾",
             "temperature": "8"
+        },
+        {
+            "reporttime": "2024-11-23 04:04:01",
+            "weather": "雾",
+            "temperature": "7"
         }
     ]
 }
