@@ -32439,6 +32439,11 @@
             "reporttime": "2024-11-23 17:31:44",
             "weather": "阴",
             "temperature": "13"
+        },
+        {
+            "reporttime": "2024-11-23 18:04:00",
+            "weather": "阴",
+            "temperature": "12"
         }
     ]
 }
