@@ -32744,6 +32744,11 @@
             "reporttime": "2024-11-25 02:03:59",
             "weather": "雾",
             "temperature": "11"
+        },
+        {
+            "reporttime": "2024-11-25 02:34:00",
+            "weather": "小雨",
+            "temperature": "11"
         }
     ]
 }
