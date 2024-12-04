@@ -34819,6 +34819,11 @@
             "reporttime": "2024-12-04 19:02:21",
             "weather": "小雨",
             "temperature": "7"
+        },
+        {
+            "reporttime": "2024-12-04 19:33:53",
+            "weather": "小雨",
+            "temperature": "7"
         }
     ]
 }
