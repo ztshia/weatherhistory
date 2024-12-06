@@ -6413,6 +6413,12 @@
             "tempmax": 12,
             "tempmin": 1,
             "conditions": "多云"
+        },
+        {
+            "datetime": "2024-12-06",
+            "tempmax": 12,
+            "tempmin": 1,
+            "conditions": "多云"
         }
     ]
 }
