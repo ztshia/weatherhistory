@@ -35534,6 +35534,11 @@
             "reporttime": "2024-12-08 02:34:07",
             "weather": "多云",
             "temperature": "1"
+        },
+        {
+            "reporttime": "2024-12-08 03:01:21",
+            "weather": "雾",
+            "temperature": "0"
         }
     ]
 }
