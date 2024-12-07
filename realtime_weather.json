@@ -35424,6 +35424,11 @@
             "reporttime": "2024-12-07 15:31:41",
             "weather": "霾",
             "temperature": "10"
+        },
+        {
+            "reporttime": "2024-12-07 16:03:52",
+            "weather": "霾",
+            "temperature": "10"
         }
     ]
 }
