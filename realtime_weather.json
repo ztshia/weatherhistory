@@ -36054,6 +36054,11 @@
             "reporttime": "2024-12-10 15:31:41",
             "weather": "阴",
             "temperature": "6"
+        },
+        {
+            "reporttime": "2024-12-10 16:03:49",
+            "weather": "阵雨",
+            "temperature": "5"
         }
     ]
 }
