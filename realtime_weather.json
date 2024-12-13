@@ -36649,6 +36649,11 @@
             "reporttime": "2024-12-13 12:04:06",
             "weather": "霾",
             "temperature": "7"
+        },
+        {
+            "reporttime": "2024-12-13 12:34:05",
+            "weather": "晴",
+            "temperature": "7"
         }
     ]
 }
