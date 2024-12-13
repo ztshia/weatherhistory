@@ -6455,6 +6455,12 @@
             "tempmax": 7,
             "tempmin": 0,
             "conditions": "多云"
+        },
+        {
+            "datetime": "2024-12-13",
+            "tempmax": 8,
+            "tempmin": -3,
+            "conditions": "晴"
         }
     ]
 }
