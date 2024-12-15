@@ -37249,6 +37249,11 @@
             "reporttime": "2024-12-16 07:01:21",
             "weather": "多云",
             "temperature": "-1"
+        },
+        {
+            "reporttime": "2024-12-16 07:31:42",
+            "weather": "多云",
+            "temperature": "-2"
         }
     ]
 }
