@@ -38394,6 +38394,11 @@
             "reporttime": "2024-12-21 15:01:25",
             "weather": "晴",
             "temperature": "6"
+        },
+        {
+            "reporttime": "2024-12-21 16:01:25",
+            "weather": "晴",
+            "temperature": "5"
         }
     ]
 }
