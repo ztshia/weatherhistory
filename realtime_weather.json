@@ -38919,6 +38919,11 @@
             "reporttime": "2024-12-24 01:01:21",
             "weather": "阴",
             "temperature": "3"
+        },
+        {
+            "reporttime": "2024-12-24 01:33:58",
+            "weather": "阴",
+            "temperature": "3"
         }
     ]
 }
