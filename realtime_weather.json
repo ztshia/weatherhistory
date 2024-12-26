@@ -39509,6 +39509,11 @@
             "reporttime": "2024-12-26 17:01:22",
             "weather": "霾",
             "temperature": "9"
+        },
+        {
+            "reporttime": "2024-12-26 17:34:09",
+            "weather": "霾",
+            "temperature": "8"
         }
     ]
 }
