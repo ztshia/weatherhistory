@@ -39724,6 +39724,11 @@
             "reporttime": "2024-12-27 16:01:26",
             "weather": "阴",
             "temperature": "8"
+        },
+        {
+            "reporttime": "2024-12-27 16:33:56",
+            "weather": "多云",
+            "temperature": "7"
         }
     ]
 }
