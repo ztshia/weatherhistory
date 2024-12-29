@@ -6551,6 +6551,12 @@
             "tempmax": 7,
             "tempmin": -4,
             "conditions": "晴"
+        },
+        {
+            "datetime": "2024-12-29",
+            "tempmax": 11,
+            "tempmin": -3,
+            "conditions": "晴"
         }
     ]
 }
