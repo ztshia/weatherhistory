@@ -40914,6 +40914,11 @@
             "reporttime": "2025-01-02 00:33:56",
             "weather": "雾",
             "temperature": "0"
+        },
+        {
+            "reporttime": "2025-01-02 01:01:21",
+            "weather": "雾",
+            "temperature": "-1"
         }
     ]
 }
