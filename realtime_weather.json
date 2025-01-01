@@ -40884,6 +40884,11 @@
             "reporttime": "2025-01-01 21:33:54",
             "weather": "多云",
             "temperature": "2"
+        },
+        {
+            "reporttime": "2025-01-01 22:01:26",
+            "weather": "雾",
+            "temperature": "1"
         }
     ]
 }
