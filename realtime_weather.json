@@ -41829,6 +41829,11 @@
             "reporttime": "2025-01-06 03:01:21",
             "weather": "晴",
             "temperature": "5"
+        },
+        {
+            "reporttime": "2025-01-06 03:31:25",
+            "weather": "雾",
+            "temperature": "3"
         }
     ]
 }
