@@ -41944,6 +41944,11 @@
             "reporttime": "2025-01-06 16:33:50",
             "weather": "晴",
             "temperature": "10"
+        },
+        {
+            "reporttime": "2025-01-06 17:01:22",
+            "weather": "多云",
+            "temperature": "9"
         }
     ]
 }
