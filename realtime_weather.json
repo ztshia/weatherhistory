@@ -42189,6 +42189,11 @@
             "reporttime": "2025-01-07 19:01:58",
             "weather": "多云",
             "temperature": "3"
+        },
+        {
+            "reporttime": "2025-01-07 19:31:48",
+            "weather": "阴",
+            "temperature": "2"
         }
     ]
 }
