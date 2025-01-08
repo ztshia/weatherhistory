@@ -6611,6 +6611,12 @@
             "tempmax": 8,
             "tempmin": -2,
             "conditions": "多云"
+        },
+        {
+            "datetime": "2025-01-08",
+            "tempmax": 9,
+            "tempmin": -4,
+            "conditions": "多云"
         }
     ]
 }
