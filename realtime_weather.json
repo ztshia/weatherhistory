@@ -42359,6 +42359,11 @@
             "reporttime": "2025-01-08 16:03:57",
             "weather": "多云",
             "temperature": "9"
+        },
+        {
+            "reporttime": "2025-01-08 16:33:57",
+            "weather": "阴",
+            "temperature": "8"
         }
     ]
 }
