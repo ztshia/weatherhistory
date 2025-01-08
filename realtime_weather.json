@@ -42304,6 +42304,11 @@
             "reporttime": "2025-01-08 10:03:55",
             "weather": "晴",
             "temperature": "5"
+        },
+        {
+            "reporttime": "2025-01-08 10:33:57",
+            "weather": "晴",
+            "temperature": "7"
         }
     ]
 }
