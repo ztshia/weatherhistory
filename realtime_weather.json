@@ -42444,6 +42444,11 @@
             "reporttime": "2025-01-09 00:34:01",
             "weather": "多云",
             "temperature": "1"
+        },
+        {
+            "reporttime": "2025-01-09 01:31:30",
+            "weather": "多云",
+            "temperature": "-1"
         }
     ]
 }
