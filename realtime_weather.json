@@ -42324,6 +42324,11 @@
             "reporttime": "2025-01-08 12:04:09",
             "weather": "阴",
             "temperature": "8"
+        },
+        {
+            "reporttime": "2025-01-08 12:33:56",
+            "weather": "阴",
+            "temperature": "8"
         }
     ]
 }
