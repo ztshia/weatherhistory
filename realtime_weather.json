@@ -42639,6 +42639,11 @@
             "reporttime": "2025-01-09 23:01:23",
             "weather": "阴",
             "temperature": "-1"
+        },
+        {
+            "reporttime": "2025-01-09 23:31:50",
+            "weather": "多云",
+            "temperature": "-4"
         }
     ]
 }
