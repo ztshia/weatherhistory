@@ -42509,6 +42509,11 @@
             "reporttime": "2025-01-09 07:31:48",
             "weather": "多云",
             "temperature": "-6"
+        },
+        {
+            "reporttime": "2025-01-09 08:33:59",
+            "weather": "多云",
+            "temperature": "-4"
         }
     ]
 }
