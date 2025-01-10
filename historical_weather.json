@@ -6623,6 +6623,12 @@
             "tempmax": 4,
             "tempmin": -5,
             "conditions": "阴"
+        },
+        {
+            "datetime": "2025-01-10",
+            "tempmax": 4,
+            "tempmin": -5,
+            "conditions": "多云"
         }
     ]
 }
