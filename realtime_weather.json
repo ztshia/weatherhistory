@@ -43114,6 +43114,11 @@
             "reporttime": "2025-01-12 03:01:20",
             "weather": "多云",
             "temperature": "-1"
+        },
+        {
+            "reporttime": "2025-01-12 03:31:25",
+            "weather": "阴",
+            "temperature": "-1"
         }
     ]
 }
