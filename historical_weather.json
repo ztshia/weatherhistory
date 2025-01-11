@@ -6629,6 +6629,12 @@
             "tempmax": 4,
             "tempmin": -5,
             "conditions": "多云"
+        },
+        {
+            "datetime": "2025-01-11",
+            "tempmax": 9,
+            "tempmin": -2,
+            "conditions": "晴"
         }
     ]
 }
