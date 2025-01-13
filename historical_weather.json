@@ -6641,6 +6641,12 @@
             "tempmax": 8,
             "tempmin": -1,
             "conditions": "晴"
+        },
+        {
+            "datetime": "2025-01-13",
+            "tempmax": 16,
+            "tempmin": 0,
+            "conditions": "多云"
         }
     ]
 }
