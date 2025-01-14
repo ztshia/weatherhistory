@@ -43619,6 +43619,11 @@
             "reporttime": "2025-01-14 11:31:51",
             "weather": "霾",
             "temperature": "14"
+        },
+        {
+            "reporttime": "2025-01-14 12:04:16",
+            "weather": "霾",
+            "temperature": "14"
         }
     ]
 }
