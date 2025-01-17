@@ -6665,6 +6665,12 @@
             "tempmax": 10,
             "tempmin": -4,
             "conditions": "晴"
+        },
+        {
+            "datetime": "2025-01-17",
+            "tempmax": 10,
+            "tempmin": -4,
+            "conditions": "晴"
         }
     ]
 }
