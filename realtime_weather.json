@@ -44924,6 +44924,11 @@
             "reporttime": "2025-01-20 05:31:49",
             "weather": "霾",
             "temperature": "-2"
+        },
+        {
+            "reporttime": "2025-01-20 06:03:49",
+            "weather": "霾",
+            "temperature": "-2"
         }
     ]
 }
