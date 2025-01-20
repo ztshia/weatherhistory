@@ -45089,6 +45089,11 @@
             "reporttime": "2025-01-21 00:04:01",
             "weather": "雾",
             "temperature": "0"
+        },
+        {
+            "reporttime": "2025-01-21 00:34:02",
+            "weather": "雾",
+            "temperature": "0"
         }
     ]
 }
