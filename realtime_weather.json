@@ -45029,6 +45029,11 @@
             "reporttime": "2025-01-20 17:31:52",
             "weather": "多云",
             "temperature": "13"
+        },
+        {
+            "reporttime": "2025-01-20 18:03:54",
+            "weather": "多云",
+            "temperature": "12"
         }
     ]
 }
