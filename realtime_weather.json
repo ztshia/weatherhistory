@@ -44984,6 +44984,11 @@
             "reporttime": "2025-01-20 13:01:23",
             "weather": "霾",
             "temperature": "12"
+        },
+        {
+            "reporttime": "2025-01-20 13:31:43",
+            "weather": "阴",
+            "temperature": "13"
         }
     ]
 }
