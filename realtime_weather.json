@@ -45444,6 +45444,11 @@
             "reporttime": "2025-01-22 18:03:52",
             "weather": "霾",
             "temperature": "12"
+        },
+        {
+            "reporttime": "2025-01-22 18:31:37",
+            "weather": "霾",
+            "temperature": "11"
         }
     ]
 }
