@@ -45919,6 +45919,11 @@
             "reporttime": "2025-01-24 23:31:50",
             "weather": "中雨",
             "temperature": "7"
+        },
+        {
+            "reporttime": "2025-01-25 00:04:04",
+            "weather": "小雨",
+            "temperature": "7"
         }
     ]
 }
