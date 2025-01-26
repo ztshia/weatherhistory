@@ -6719,6 +6719,12 @@
             "tempmax": 7,
             "tempmin": 0,
             "conditions": "小雨"
+        },
+        {
+            "datetime": "2025-01-26",
+            "tempmax": 4,
+            "tempmin": -5,
+            "conditions": "小雨"
         }
     ]
 }
