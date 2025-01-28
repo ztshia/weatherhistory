@@ -46619,6 +46619,11 @@
             "reporttime": "2025-01-28 07:31:46",
             "weather": "多云",
             "temperature": "-5"
+        },
+        {
+            "reporttime": "2025-01-28 08:34:05",
+            "weather": "晴",
+            "temperature": "-2"
         }
     ]
 }
