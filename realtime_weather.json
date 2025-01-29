@@ -46984,6 +46984,11 @@
             "reporttime": "2025-01-30 00:04:00",
             "weather": "多云",
             "temperature": "4"
+        },
+        {
+            "reporttime": "2025-01-30 00:34:00",
+            "weather": "阴",
+            "temperature": "4"
         }
     ]
 }
