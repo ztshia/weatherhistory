@@ -47239,6 +47239,11 @@
             "reporttime": "2025-01-31 05:01:23",
             "weather": "阴",
             "temperature": "8"
+        },
+        {
+            "reporttime": "2025-01-31 05:31:47",
+            "weather": "小雨",
+            "temperature": "7"
         }
     ]
 }
