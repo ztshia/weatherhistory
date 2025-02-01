@@ -47604,6 +47604,11 @@
             "reporttime": "2025-02-02 00:03:56",
             "weather": "小雨",
             "temperature": "4"
+        },
+        {
+            "reporttime": "2025-02-02 00:34:06",
+            "weather": "小雨",
+            "temperature": "4"
         }
     ]
 }
