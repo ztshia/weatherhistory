@@ -6755,6 +6755,12 @@
             "tempmax": 6,
             "tempmin": 3,
             "conditions": "小雨"
+        },
+        {
+            "datetime": "2025-02-02",
+            "tempmax": 7,
+            "tempmin": 3,
+            "conditions": "阴"
         }
     ]
 }
