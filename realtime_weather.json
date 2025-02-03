@@ -47914,6 +47914,11 @@
             "reporttime": "2025-02-03 11:31:39",
             "weather": "雾",
             "temperature": "5"
+        },
+        {
+            "reporttime": "2025-02-03 12:04:10",
+            "weather": "雾",
+            "temperature": "6"
         }
     ]
 }
