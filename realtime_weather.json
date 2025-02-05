@@ -48324,6 +48324,11 @@
             "reporttime": "2025-02-05 07:01:20",
             "weather": "多云",
             "temperature": "1"
+        },
+        {
+            "reporttime": "2025-02-05 10:01:24",
+            "weather": "阴",
+            "temperature": "6"
         }
     ]
 }
