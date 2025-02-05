@@ -48464,6 +48464,11 @@
             "reporttime": "2025-02-06 00:33:57",
             "weather": "阴",
             "temperature": "-2"
+        },
+        {
+            "reporttime": "2025-02-06 01:01:23",
+            "weather": "雾",
+            "temperature": "-2"
         }
     ]
 }
