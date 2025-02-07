@@ -48874,6 +48874,11 @@
             "reporttime": "2025-02-08 00:01:37",
             "weather": "晴",
             "temperature": "-6"
+        },
+        {
+            "reporttime": "2025-02-08 00:34:04",
+            "weather": "晴",
+            "temperature": "-8"
         }
     ]
 }
