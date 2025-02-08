@@ -6791,6 +6791,12 @@
             "tempmax": 0,
             "tempmin": -7,
             "conditions": "晴"
+        },
+        {
+            "datetime": "2025-02-08",
+            "tempmax": 0,
+            "tempmin": -6,
+            "conditions": "晴"
         }
     ]
 }
