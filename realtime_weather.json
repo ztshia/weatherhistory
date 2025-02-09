@@ -49174,6 +49174,11 @@
             "reporttime": "2025-02-09 07:01:21",
             "weather": "雾",
             "temperature": "-9"
+        },
+        {
+            "reporttime": "2025-02-09 08:34:02",
+            "weather": "晴",
+            "temperature": "-5"
         }
     ]
 }
