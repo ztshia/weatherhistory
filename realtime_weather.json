@@ -49249,6 +49249,11 @@
             "reporttime": "2025-02-09 18:34:11",
             "weather": "阴",
             "temperature": "3"
+        },
+        {
+            "reporttime": "2025-02-09 19:01:50",
+            "weather": "阴",
+            "temperature": "2"
         }
     ]
 }
