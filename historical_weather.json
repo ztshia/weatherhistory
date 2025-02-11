@@ -6809,6 +6809,12 @@
             "tempmax": 12,
             "tempmin": -1,
             "conditions": "阴"
+        },
+        {
+            "datetime": "2025-02-11",
+            "tempmax": 11,
+            "tempmin": 3,
+            "conditions": "小雨"
         }
     ]
 }
