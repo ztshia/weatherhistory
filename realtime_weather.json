@@ -49724,6 +49724,11 @@
             "reporttime": "2025-02-11 23:01:25",
             "weather": "雾",
             "temperature": "5"
+        },
+        {
+            "reporttime": "2025-02-11 23:34:00",
+            "weather": "小雨",
+            "temperature": "5"
         }
     ]
 }
