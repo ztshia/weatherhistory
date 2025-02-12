@@ -49949,6 +49949,11 @@
             "reporttime": "2025-02-13 00:01:34",
             "weather": "雾",
             "temperature": "1"
+        },
+        {
+            "reporttime": "2025-02-13 00:34:04",
+            "weather": "雾",
+            "temperature": "0"
         }
     ]
 }
