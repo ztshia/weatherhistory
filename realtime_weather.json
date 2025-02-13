@@ -50219,6 +50219,11 @@
             "reporttime": "2025-02-14 06:34:08",
             "weather": "阴",
             "temperature": "5"
+        },
+        {
+            "reporttime": "2025-02-14 07:01:24",
+            "weather": "阴",
+            "temperature": "5"
         }
     ]
 }
