@@ -50404,6 +50404,11 @@
             "reporttime": "2025-02-15 03:03:48",
             "weather": "雾",
             "temperature": "6"
+        },
+        {
+            "reporttime": "2025-02-15 03:31:28",
+            "weather": "雾",
+            "temperature": "5"
         }
     ]
 }
