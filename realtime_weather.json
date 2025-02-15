@@ -50459,6 +50459,11 @@
             "reporttime": "2025-02-15 10:04:01",
             "weather": "霾",
             "temperature": "8"
+        },
+        {
+            "reporttime": "2025-02-15 10:31:45",
+            "weather": "霾",
+            "temperature": "9"
         }
     ]
 }
