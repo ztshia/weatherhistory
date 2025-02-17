@@ -50959,6 +50959,11 @@
             "reporttime": "2025-02-17 18:03:51",
             "weather": "阴",
             "temperature": "9"
+        },
+        {
+            "reporttime": "2025-02-17 18:31:39",
+            "weather": "晴",
+            "temperature": "8"
         }
     ]
 }
