@@ -51874,6 +51874,11 @@
             "reporttime": "2025-02-22 03:03:24",
             "weather": "雾",
             "temperature": "4"
+        },
+        {
+            "reporttime": "2025-02-22 03:31:13",
+            "weather": "雾",
+            "temperature": "5"
         }
     ]
 }
