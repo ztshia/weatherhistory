@@ -52014,6 +52014,11 @@
             "reporttime": "2025-02-22 18:31:32",
             "weather": "阴",
             "temperature": "7"
+        },
+        {
+            "reporttime": "2025-02-22 19:03:39",
+            "weather": "雾",
+            "temperature": "6"
         }
     ]
 }
