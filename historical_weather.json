@@ -6875,6 +6875,12 @@
             "tempmax": 9,
             "tempmin": 1,
             "conditions": "多云"
+        },
+        {
+            "datetime": "2025-02-22",
+            "tempmax": 9,
+            "tempmin": 1,
+            "conditions": "阴"
         }
     ]
 }
