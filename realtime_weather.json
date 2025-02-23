@@ -52204,6 +52204,11 @@
             "reporttime": "2025-02-23 16:03:27",
             "weather": "雾",
             "temperature": "6"
+        },
+        {
+            "reporttime": "2025-02-23 16:31:36",
+            "weather": "雾",
+            "temperature": "5"
         }
     ]
 }
