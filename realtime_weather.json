@@ -52169,6 +52169,11 @@
             "reporttime": "2025-02-23 12:31:31",
             "weather": "阴",
             "temperature": "8"
+        },
+        {
+            "reporttime": "2025-02-23 13:03:25",
+            "weather": "阴",
+            "temperature": "7"
         }
     ]
 }
