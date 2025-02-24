@@ -6887,6 +6887,12 @@
             "tempmax": 8,
             "tempmin": -3,
             "conditions": "小雨"
+        },
+        {
+            "datetime": "2025-02-24",
+            "tempmax": 8,
+            "tempmin": -1,
+            "conditions": "晴"
         }
     ]
 }
