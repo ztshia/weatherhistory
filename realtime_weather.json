@@ -52449,6 +52449,11 @@
             "reporttime": "2025-02-24 20:03:24",
             "weather": "阴",
             "temperature": "6"
+        },
+        {
+            "reporttime": "2025-02-24 20:31:37",
+            "weather": "阴",
+            "temperature": "6"
         }
     ]
 }
