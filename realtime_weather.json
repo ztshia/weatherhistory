@@ -52649,6 +52649,11 @@
             "reporttime": "2025-02-25 18:31:34",
             "weather": "晴",
             "temperature": "9"
+        },
+        {
+            "reporttime": "2025-02-25 19:03:43",
+            "weather": "多云",
+            "temperature": "8"
         }
     ]
 }
