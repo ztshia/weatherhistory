@@ -52749,6 +52749,11 @@
             "reporttime": "2025-02-26 04:31:13",
             "weather": "雾",
             "temperature": "1"
+        },
+        {
+            "reporttime": "2025-02-26 05:03:23",
+            "weather": "雾",
+            "temperature": "1"
         }
     ]
 }
