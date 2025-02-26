@@ -52974,6 +52974,11 @@
             "reporttime": "2025-02-27 06:03:35",
             "weather": "雾",
             "temperature": "9"
+        },
+        {
+            "reporttime": "2025-02-27 06:31:35",
+            "weather": "雾",
+            "temperature": "8"
         }
     ]
 }
