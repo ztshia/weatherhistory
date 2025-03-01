@@ -6911,6 +6911,12 @@
             "tempmax": 21,
             "tempmin": 9,
             "conditions": "阴"
+        },
+        {
+            "datetime": "2025-03-01",
+            "tempmax": 24,
+            "tempmin": 14,
+            "conditions": "阴"
         }
     ]
 }
