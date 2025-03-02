@@ -6917,6 +6917,12 @@
             "tempmax": 24,
             "tempmin": 14,
             "conditions": "阴"
+        },
+        {
+            "datetime": "2025-03-02",
+            "tempmax": 24,
+            "tempmin": 2,
+            "conditions": "小雨"
         }
     ]
 }
