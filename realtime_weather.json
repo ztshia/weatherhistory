@@ -53884,6 +53884,11 @@
             "reporttime": "2025-03-03 17:01:19",
             "weather": "阵雨",
             "temperature": "3"
+        },
+        {
+            "reporttime": "2025-03-03 17:33:29",
+            "weather": "雾",
+            "temperature": "3"
         }
     ]
 }
