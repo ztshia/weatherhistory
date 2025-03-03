@@ -6923,6 +6923,12 @@
             "tempmax": 24,
             "tempmin": 2,
             "conditions": "小雨"
+        },
+        {
+            "datetime": "2025-03-03",
+            "tempmax": 6,
+            "tempmin": 0,
+            "conditions": "中雨"
         }
     ]
 }
