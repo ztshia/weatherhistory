@@ -6941,6 +6941,12 @@
             "tempmax": 13,
             "tempmin": 1,
             "conditions": "晴"
+        },
+        {
+            "datetime": "2025-03-07",
+            "tempmax": 13,
+            "tempmin": 0,
+            "conditions": "多云"
         }
     ]
 }
