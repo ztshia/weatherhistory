@@ -54744,6 +54744,11 @@
             "reporttime": "2025-03-07 23:03:30",
             "weather": "雾",
             "temperature": "3"
+        },
+        {
+            "reporttime": "2025-03-07 23:31:31",
+            "weather": "雾",
+            "temperature": "3"
         }
     ]
 }
