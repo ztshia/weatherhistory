@@ -55064,6 +55064,11 @@
             "reporttime": "2025-03-09 11:01:16",
             "weather": "霾",
             "temperature": "12"
+        },
+        {
+            "reporttime": "2025-03-09 12:01:50",
+            "weather": "霾",
+            "temperature": "13"
         }
     ]
 }
