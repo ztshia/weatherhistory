@@ -55249,6 +55249,11 @@
             "reporttime": "2025-03-10 07:03:28",
             "weather": "雾",
             "temperature": "7"
+        },
+        {
+            "reporttime": "2025-03-10 09:33:27",
+            "weather": "多云",
+            "temperature": "12"
         }
     ]
 }
