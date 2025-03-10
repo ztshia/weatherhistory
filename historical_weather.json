@@ -6953,6 +6953,12 @@
             "tempmax": 16,
             "tempmin": 3,
             "conditions": "晴"
+        },
+        {
+            "datetime": "2025-03-10",
+            "tempmax": 18,
+            "tempmin": 6,
+            "conditions": "多云"
         }
     ]
 }
