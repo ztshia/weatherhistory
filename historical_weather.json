@@ -6965,6 +6965,12 @@
             "tempmax": 21,
             "tempmin": 9,
             "conditions": "多云"
+        },
+        {
+            "datetime": "2025-03-12",
+            "tempmax": 17,
+            "tempmin": 11,
+            "conditions": "小雨"
         }
     ]
 }
