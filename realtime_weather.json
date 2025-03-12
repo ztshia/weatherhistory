@@ -55819,6 +55819,11 @@
             "reporttime": "2025-03-13 02:01:16",
             "weather": "雾",
             "temperature": "11"
+        },
+        {
+            "reporttime": "2025-03-13 02:33:40",
+            "weather": "雾",
+            "temperature": "12"
         }
     ]
 }
