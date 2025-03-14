@@ -56179,6 +56179,11 @@
             "reporttime": "2025-03-14 19:01:40",
             "weather": "雾",
             "temperature": "9"
+        },
+        {
+            "reporttime": "2025-03-14 20:01:15",
+            "weather": "小雨",
+            "temperature": "8"
         }
     ]
 }
