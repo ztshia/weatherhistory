@@ -6983,6 +6983,12 @@
             "tempmax": 10,
             "tempmin": 7,
             "conditions": "小雨"
+        },
+        {
+            "datetime": "2025-03-15",
+            "tempmax": 10,
+            "tempmin": 5,
+            "conditions": "阴"
         }
     ]
 }
