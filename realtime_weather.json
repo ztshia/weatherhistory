@@ -56289,6 +56289,11 @@
             "reporttime": "2025-03-15 08:33:32",
             "weather": "雾",
             "temperature": "7"
+        },
+        {
+            "reporttime": "2025-03-15 10:01:16",
+            "weather": "雾",
+            "temperature": "7"
         }
     ]
 }
