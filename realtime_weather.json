@@ -56419,6 +56419,11 @@
             "reporttime": "2025-03-15 23:33:27",
             "weather": "阴",
             "temperature": "8"
+        },
+        {
+            "reporttime": "2025-03-16 00:33:32",
+            "weather": "雾",
+            "temperature": "8"
         }
     ]
 }
