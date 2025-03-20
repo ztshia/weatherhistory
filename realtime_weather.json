@@ -57389,6 +57389,11 @@
             "reporttime": "2025-03-20 18:01:16",
             "weather": "晴",
             "temperature": "20"
+        },
+        {
+            "reporttime": "2025-03-20 18:31:30",
+            "weather": "晴",
+            "temperature": "19"
         }
     ]
 }
