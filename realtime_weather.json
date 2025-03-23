@@ -57939,6 +57939,11 @@
             "reporttime": "2025-03-23 07:33:36",
             "weather": "多云",
             "temperature": "11"
+        },
+        {
+            "reporttime": "2025-03-23 08:31:38",
+            "weather": "阴",
+            "temperature": "15"
         }
     ]
 }
