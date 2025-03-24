@@ -58234,6 +58234,11 @@
             "reporttime": "2025-03-24 19:03:40",
             "weather": "霾",
             "temperature": "22"
+        },
+        {
+            "reporttime": "2025-03-24 19:03:40",
+            "weather": "霾",
+            "temperature": "22"
         }
     ]
 }
