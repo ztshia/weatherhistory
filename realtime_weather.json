@@ -58679,6 +58679,11 @@
             "reporttime": "2025-03-27 02:01:17",
             "weather": "阴",
             "temperature": "22"
+        },
+        {
+            "reporttime": "2025-03-27 02:31:24",
+            "weather": "大雨",
+            "temperature": "20"
         }
     ]
 }
