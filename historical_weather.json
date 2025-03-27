@@ -7043,6 +7043,12 @@
             "tempmax": 33,
             "tempmin": 17,
             "conditions": "晴"
+        },
+        {
+            "datetime": "2025-03-27",
+            "tempmax": 19,
+            "tempmin": 7,
+            "conditions": "阴"
         }
     ]
 }
