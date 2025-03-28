@@ -58939,6 +58939,11 @@
             "reporttime": "2025-03-28 08:31:44",
             "weather": "小雨",
             "temperature": "6"
+        },
+        {
+            "reporttime": "2025-03-28 10:01:19",
+            "weather": "阴",
+            "temperature": "9"
         }
     ]
 }
