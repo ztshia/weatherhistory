@@ -59249,6 +59249,11 @@
             "reporttime": "2025-03-29 20:01:19",
             "weather": "阴",
             "temperature": "9"
+        },
+        {
+            "reporttime": "2025-03-29 20:31:39",
+            "weather": "阴",
+            "temperature": "9"
         }
     ]
 }
