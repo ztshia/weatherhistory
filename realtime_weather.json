@@ -59329,6 +59329,11 @@
             "reporttime": "2025-03-30 04:01:17",
             "weather": "阴",
             "temperature": "4"
+        },
+        {
+            "reporttime": "2025-03-30 04:31:17",
+            "weather": "雾",
+            "temperature": "4"
         }
     ]
 }
