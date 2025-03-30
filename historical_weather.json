@@ -7061,6 +7061,12 @@
             "tempmax": 13,
             "tempmin": 4,
             "conditions": "阴"
+        },
+        {
+            "datetime": "2025-03-30",
+            "tempmax": 15,
+            "tempmin": 4,
+            "conditions": "晴"
         }
     ]
 }
