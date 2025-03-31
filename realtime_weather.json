@@ -59709,6 +59709,11 @@
             "reporttime": "2025-03-31 23:33:53",
             "weather": "阴",
             "temperature": "8"
+        },
+        {
+            "reporttime": "2025-04-01 00:01:27",
+            "weather": "阴",
+            "temperature": "8"
         }
     ]
 }
