@@ -59754,6 +59754,11 @@
             "reporttime": "2025-04-01 04:31:21",
             "weather": "多云",
             "temperature": "4"
+        },
+        {
+            "reporttime": "2025-04-01 05:03:09",
+            "weather": "雾",
+            "temperature": "4"
         }
     ]
 }
