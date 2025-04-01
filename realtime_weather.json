@@ -59949,6 +59949,11 @@
             "reporttime": "2025-04-02 04:01:15",
             "weather": "阴",
             "temperature": "8"
+        },
+        {
+            "reporttime": "2025-04-02 04:31:23",
+            "weather": "多云",
+            "temperature": "8"
         }
     ]
 }
