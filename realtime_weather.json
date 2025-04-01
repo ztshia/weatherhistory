@@ -59784,6 +59784,11 @@
             "reporttime": "2025-04-01 07:33:45",
             "weather": "雾",
             "temperature": "4"
+        },
+        {
+            "reporttime": "2025-04-01 08:31:39",
+            "weather": "晴",
+            "temperature": "10"
         }
     ]
 }
