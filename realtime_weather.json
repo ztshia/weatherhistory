@@ -60004,6 +60004,11 @@
             "reporttime": "2025-04-02 12:01:38",
             "weather": "晴",
             "temperature": "19"
+        },
+        {
+            "reporttime": "2025-04-02 12:31:31",
+            "weather": "晴",
+            "temperature": "20"
         }
     ]
 }
