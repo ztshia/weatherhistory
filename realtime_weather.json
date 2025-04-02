@@ -60149,6 +60149,11 @@
             "reporttime": "2025-04-03 04:31:23",
             "weather": "阴",
             "temperature": "10"
+        },
+        {
+            "reporttime": "2025-04-03 05:03:30",
+            "weather": "阴",
+            "temperature": "10"
         }
     ]
 }
