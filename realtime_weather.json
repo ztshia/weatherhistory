@@ -60364,6 +60364,11 @@
             "reporttime": "2025-04-04 04:31:21",
             "weather": "阴",
             "temperature": "8"
+        },
+        {
+            "reporttime": "2025-04-04 05:03:28",
+            "weather": "多云",
+            "temperature": "9"
         }
     ]
 }
