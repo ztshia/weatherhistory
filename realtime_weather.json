@@ -60769,6 +60769,11 @@
             "reporttime": "2025-04-06 03:03:46",
             "weather": "雾",
             "temperature": "7"
+        },
+        {
+            "reporttime": "2025-04-06 04:01:16",
+            "weather": "雾",
+            "temperature": "6"
         }
     ]
 }
