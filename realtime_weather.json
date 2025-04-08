@@ -61289,6 +61289,11 @@
             "reporttime": "2025-04-08 17:03:30",
             "weather": "多云",
             "temperature": "28"
+        },
+        {
+            "reporttime": "2025-04-08 17:33:40",
+            "weather": "多云",
+            "temperature": "27"
         }
     ]
 }
