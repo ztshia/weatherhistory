@@ -61244,6 +61244,11 @@
             "reporttime": "2025-04-08 12:01:43",
             "weather": "晴",
             "temperature": "28"
+        },
+        {
+            "reporttime": "2025-04-08 12:31:38",
+            "weather": "多云",
+            "temperature": "28"
         }
     ]
 }
