@@ -61804,6 +61804,11 @@
             "reporttime": "2025-04-11 06:01:20",
             "weather": "雾",
             "temperature": "13"
+        },
+        {
+            "reporttime": "2025-04-11 06:31:47",
+            "weather": "雾",
+            "temperature": "14"
         }
     ]
 }
