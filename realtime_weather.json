@@ -61919,6 +61919,11 @@
             "reporttime": "2025-04-11 21:33:50",
             "weather": "大雨",
             "temperature": "19"
+        },
+        {
+            "reporttime": "2025-04-11 22:01:25",
+            "weather": "中雨",
+            "temperature": "19"
         }
     ]
 }
