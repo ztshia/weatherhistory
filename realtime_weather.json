@@ -61944,6 +61944,11 @@
             "reporttime": "2025-04-12 00:01:36",
             "weather": "小雨",
             "temperature": "18"
+        },
+        {
+            "reporttime": "2025-04-12 00:31:32",
+            "weather": "阴",
+            "temperature": "18"
         }
     ]
 }
