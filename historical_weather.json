@@ -7139,6 +7139,12 @@
             "tempmax": 30,
             "tempmin": 15,
             "conditions": "中雨"
+        },
+        {
+            "datetime": "2025-04-12",
+            "tempmax": 23,
+            "tempmin": 6,
+            "conditions": "多云"
         }
     ]
 }
