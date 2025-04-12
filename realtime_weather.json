@@ -62094,6 +62094,11 @@
             "reporttime": "2025-04-12 18:01:22",
             "weather": "霾",
             "temperature": "12"
+        },
+        {
+            "reporttime": "2025-04-12 18:31:47",
+            "weather": "霾",
+            "temperature": "11"
         }
     ]
 }
