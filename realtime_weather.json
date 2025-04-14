@@ -62594,6 +62594,11 @@
             "reporttime": "2025-04-15 07:03:33",
             "weather": "晴",
             "temperature": "9"
+        },
+        {
+            "reporttime": "2025-04-15 07:33:47",
+            "weather": "晴",
+            "temperature": "11"
         }
     ]
 }
