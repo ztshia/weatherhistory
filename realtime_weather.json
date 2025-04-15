@@ -62754,6 +62754,11 @@
             "reporttime": "2025-04-16 02:03:43",
             "weather": "阴",
             "temperature": "13"
+        },
+        {
+            "reporttime": "2025-04-16 03:31:21",
+            "weather": "阴",
+            "temperature": "13"
         }
     ]
 }
