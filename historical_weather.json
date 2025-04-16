@@ -7163,6 +7163,12 @@
             "tempmax": 27,
             "tempmin": 15,
             "conditions": "晴"
+        },
+        {
+            "datetime": "2025-04-16",
+            "tempmax": 31,
+            "tempmin": 16,
+            "conditions": "晴"
         }
     ]
 }
