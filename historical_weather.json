@@ -7181,6 +7181,12 @@
             "tempmax": 31,
             "tempmin": 18,
             "conditions": "晴"
+        },
+        {
+            "datetime": "2025-04-19",
+            "tempmax": 27,
+            "tempmin": 16,
+            "conditions": "多云"
         }
     ]
 }
