@@ -63819,6 +63819,11 @@
             "reporttime": "2025-04-21 05:31:37",
             "weather": "小雨",
             "temperature": "20"
+        },
+        {
+            "reporttime": "2025-04-21 06:03:22",
+            "weather": "小雨",
+            "temperature": "19"
         }
     ]
 }
