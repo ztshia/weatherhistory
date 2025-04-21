@@ -63954,6 +63954,11 @@
             "reporttime": "2025-04-21 21:31:45",
             "weather": "小雨",
             "temperature": "21"
+        },
+        {
+            "reporttime": "2025-04-21 22:03:47",
+            "weather": "雾",
+            "temperature": "20"
         }
     ]
 }
