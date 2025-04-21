@@ -7193,6 +7193,12 @@
             "tempmax": 27,
             "tempmin": 16,
             "conditions": "晴"
+        },
+        {
+            "datetime": "2025-04-21",
+            "tempmax": 24,
+            "tempmin": 18,
+            "conditions": "中雨"
         }
     ]
 }
