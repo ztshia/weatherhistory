@@ -64429,6 +64429,11 @@
             "reporttime": "2025-04-24 02:31:33",
             "weather": "雾",
             "temperature": "13"
+        },
+        {
+            "reporttime": "2025-04-24 03:03:43",
+            "weather": "雾",
+            "temperature": "13"
         }
     ]
 }
