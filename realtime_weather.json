@@ -64919,6 +64919,11 @@
             "reporttime": "2025-04-26 13:33:55",
             "weather": "晴",
             "temperature": "27"
+        },
+        {
+            "reporttime": "2025-04-26 14:01:25",
+            "weather": "多云",
+            "temperature": "27"
         }
     ]
 }
