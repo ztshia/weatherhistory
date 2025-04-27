@@ -65169,6 +65169,11 @@
             "reporttime": "2025-04-27 18:01:24",
             "weather": "阴",
             "temperature": "23"
+        },
+        {
+            "reporttime": "2025-04-27 18:33:50",
+            "weather": "大雨",
+            "temperature": "20"
         }
     ]
 }
