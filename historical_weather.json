@@ -7265,6 +7265,12 @@
             "tempmax": 26,
             "tempmin": 15,
             "conditions": "晴"
+        },
+        {
+            "datetime": "2025-05-04",
+            "tempmax": 27,
+            "tempmin": 15,
+            "conditions": "多云"
         }
     ]
 }
