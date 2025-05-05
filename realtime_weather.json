@@ -66854,6 +66854,11 @@
             "reporttime": "2025-05-06 04:33:43",
             "weather": "雾",
             "temperature": "16"
+        },
+        {
+            "reporttime": "2025-05-06 05:01:22",
+            "weather": "多云",
+            "temperature": "18"
         }
     ]
 }
