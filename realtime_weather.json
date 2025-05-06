@@ -67074,6 +67074,11 @@
             "reporttime": "2025-05-07 06:33:46",
             "weather": "雾",
             "temperature": "13"
+        },
+        {
+            "reporttime": "2025-05-07 07:01:22",
+            "weather": "晴",
+            "temperature": "15"
         }
     ]
 }
