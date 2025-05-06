@@ -67019,6 +67019,11 @@
             "reporttime": "2025-05-07 01:01:22",
             "weather": "阴",
             "temperature": "15"
+        },
+        {
+            "reporttime": "2025-05-07 01:33:49",
+            "weather": "多云",
+            "temperature": "14"
         }
     ]
 }
