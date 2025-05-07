@@ -67099,6 +67099,11 @@
             "reporttime": "2025-05-07 11:34:03",
             "weather": "晴",
             "temperature": "25"
+        },
+        {
+            "reporttime": "2025-05-07 12:01:47",
+            "weather": "晴",
+            "temperature": "26"
         }
     ]
 }
