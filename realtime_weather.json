@@ -67319,6 +67319,11 @@
             "reporttime": "2025-05-08 13:34:00",
             "weather": "中雨",
             "temperature": "18"
+        },
+        {
+            "reporttime": "2025-05-08 14:01:28",
+            "weather": "小雨",
+            "temperature": "18"
         }
     ]
 }
