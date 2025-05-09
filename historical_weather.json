@@ -7295,6 +7295,12 @@
             "tempmax": 21,
             "tempmin": 14,
             "conditions": "暴雨"
+        },
+        {
+            "datetime": "2025-05-09",
+            "tempmax": 25,
+            "tempmin": 14,
+            "conditions": "多云"
         }
     ]
 }
