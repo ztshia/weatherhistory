@@ -68204,6 +68204,11 @@
             "reporttime": "2025-05-12 19:34:16",
             "weather": "晴",
             "temperature": "24"
+        },
+        {
+            "reporttime": "2025-05-12 20:01:26",
+            "weather": "多云",
+            "temperature": "24"
         }
     ]
 }
