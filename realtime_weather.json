@@ -68824,6 +68824,11 @@
             "reporttime": "2025-05-15 23:01:22",
             "weather": "雾",
             "temperature": "21"
+        },
+        {
+            "reporttime": "2025-05-15 23:34:04",
+            "weather": "雾",
+            "temperature": "20"
         }
     ]
 }
