@@ -7343,6 +7343,12 @@
             "tempmax": 29,
             "tempmin": 18,
             "conditions": "晴"
+        },
+        {
+            "datetime": "2025-05-17",
+            "tempmax": 30,
+            "tempmin": 17,
+            "conditions": "阴"
         }
     ]
 }
