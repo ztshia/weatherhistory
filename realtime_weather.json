@@ -69699,6 +69699,11 @@
             "reporttime": "2025-05-20 03:01:24",
             "weather": "多云",
             "temperature": "24"
+        },
+        {
+            "reporttime": "2025-05-20 03:33:56",
+            "weather": "多云",
+            "temperature": "23"
         }
     ]
 }
