@@ -70244,6 +70244,11 @@
             "reporttime": "2025-05-22 19:01:46",
             "weather": "小雨",
             "temperature": "30"
+        },
+        {
+            "reporttime": "2025-05-22 19:33:59",
+            "weather": "阴",
+            "temperature": "30"
         }
     ]
 }
