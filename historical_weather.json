@@ -7373,6 +7373,12 @@
             "tempmax": 35,
             "tempmin": 23,
             "conditions": "多云"
+        },
+        {
+            "datetime": "2025-05-22",
+            "tempmax": 35,
+            "tempmin": 19,
+            "conditions": "多云"
         }
     ]
 }
