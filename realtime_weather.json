@@ -70784,6 +70784,11 @@
             "reporttime": "2025-05-25 07:33:55",
             "weather": "雾",
             "temperature": "18"
+        },
+        {
+            "reporttime": "2025-05-25 09:01:48",
+            "weather": "多云",
+            "temperature": "22"
         }
     ]
 }
