@@ -71039,6 +71039,11 @@
             "reporttime": "2025-05-26 14:34:09",
             "weather": "小雨",
             "temperature": "26"
+        },
+        {
+            "reporttime": "2025-05-26 15:34:12",
+            "weather": "多云",
+            "temperature": "27"
         }
     ]
 }
