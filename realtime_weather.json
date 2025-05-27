@@ -71199,6 +71199,11 @@
             "reporttime": "2025-05-27 11:34:19",
             "weather": "多云",
             "temperature": "27"
+        },
+        {
+            "reporttime": "2025-05-27 12:02:53",
+            "weather": "阴",
+            "temperature": "27"
         }
     ]
 }
