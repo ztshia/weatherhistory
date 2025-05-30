@@ -71979,6 +71979,11 @@
             "reporttime": "2025-05-31 05:34:14",
             "weather": "阴",
             "temperature": "22"
+        },
+        {
+            "reporttime": "2025-05-31 06:01:30",
+            "weather": "小雨",
+            "temperature": "23"
         }
     ]
 }
