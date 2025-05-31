@@ -72169,6 +72169,11 @@
             "reporttime": "2025-06-01 03:01:20",
             "weather": "小雨",
             "temperature": "18"
+        },
+        {
+            "reporttime": "2025-06-01 04:01:23",
+            "weather": "小雨",
+            "temperature": "17"
         }
     ]
 }
