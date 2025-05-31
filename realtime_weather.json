@@ -72029,6 +72029,11 @@
             "reporttime": "2025-05-31 13:01:21",
             "weather": "中雨",
             "temperature": "18"
+        },
+        {
+            "reporttime": "2025-05-31 13:34:09",
+            "weather": "中雨",
+            "temperature": "18"
         }
     ]
 }
