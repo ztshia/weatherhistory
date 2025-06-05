@@ -73184,6 +73184,11 @@
             "reporttime": "2025-06-06 06:01:30",
             "weather": "多云",
             "temperature": "21"
+        },
+        {
+            "reporttime": "2025-06-06 06:33:59",
+            "weather": "多云",
+            "temperature": "22"
         }
     ]
 }
