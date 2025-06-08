@@ -73784,6 +73784,11 @@
             "reporttime": "2025-06-09 05:01:18",
             "weather": "雾",
             "temperature": "21"
+        },
+        {
+            "reporttime": "2025-06-09 05:34:00",
+            "weather": "小雨",
+            "temperature": "21"
         }
     ]
 }
