@@ -7470,10 +7470,16 @@
             "tempmin": 23,
             "conditions": "小雨"
         },
-                {
+        {
             "datetime": "2025-06-08",
             "tempmax": 34,
             "tempmin": 24,
+            "conditions": "阴"
+        },
+        {
+            "datetime": "2025-06-09",
+            "tempmax": 27,
+            "tempmin": 21,
             "conditions": "阴"
         }
     ]
