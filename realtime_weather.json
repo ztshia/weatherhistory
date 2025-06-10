@@ -74004,6 +74004,11 @@
             "reporttime": "2025-06-10 08:33:59",
             "weather": "雾",
             "temperature": "23"
+        },
+        {
+            "reporttime": "2025-06-10 10:34:03",
+            "weather": "小雨",
+            "temperature": "24"
         }
     ]
 }
