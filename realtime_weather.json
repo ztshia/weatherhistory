@@ -74034,6 +74034,11 @@
             "reporttime": "2025-06-10 14:01:25",
             "weather": "小雨",
             "temperature": "24"
+        },
+        {
+            "reporttime": "2025-06-10 14:33:57",
+            "weather": "中雨",
+            "temperature": "24"
         }
     ]
 }
