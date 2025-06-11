@@ -7487,6 +7487,12 @@
             "tempmax": 26,
             "tempmin": 20,
             "conditions": "小雨"
+        },
+        {
+            "datetime": "2025-06-11",
+            "tempmax": 26,
+            "tempmin": 19,
+            "conditions": "多云"
         }
     ]
 }
