@@ -74634,6 +74634,11 @@
             "reporttime": "2025-06-13 12:34:06",
             "weather": "雾",
             "temperature": "29"
+        },
+        {
+            "reporttime": "2025-06-13 13:01:25",
+            "weather": "雾",
+            "temperature": "29"
         }
     ]
 }
