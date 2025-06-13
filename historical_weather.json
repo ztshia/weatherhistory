@@ -7499,6 +7499,12 @@
             "tempmax": 25,
             "tempmin": 19,
             "conditions": "阴"
+        },
+        {
+            "datetime": "2025-06-13",
+            "tempmax": 31,
+            "tempmin": 22,
+            "conditions": "多云"
         }
     ]
 }
