@@ -74884,6 +74884,11 @@
             "reporttime": "2025-06-14 17:01:22",
             "weather": "大雨",
             "temperature": "27"
+        },
+        {
+            "reporttime": "2025-06-14 17:33:50",
+            "weather": "大雨",
+            "temperature": "24"
         }
     ]
 }
