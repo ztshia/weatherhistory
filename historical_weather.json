@@ -7523,6 +7523,12 @@
             "tempmax": 33,
             "tempmin": 21,
             "conditions": "晴"
+        },
+        {
+            "datetime": "2025-06-17",
+            "tempmax": 34,
+            "tempmin": 25,
+            "conditions": "晴"
         }
     ]
 }
