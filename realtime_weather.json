@@ -75429,6 +75429,11 @@
             "reporttime": "2025-06-17 11:33:49",
             "weather": "晴",
             "temperature": "33"
+        },
+        {
+            "reporttime": "2025-06-17 12:02:55",
+            "weather": "晴",
+            "temperature": "33"
         }
     ]
 }
