@@ -76059,6 +76059,11 @@
             "reporttime": "2025-06-20 13:34:02",
             "weather": "中雨",
             "temperature": "26"
+        },
+        {
+            "reporttime": "2025-06-20 14:01:24",
+            "weather": "中雨",
+            "temperature": "25"
         }
     ]
 }
