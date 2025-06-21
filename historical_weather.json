@@ -7547,6 +7547,12 @@
             "tempmax": 27,
             "tempmin": 22,
             "conditions": "中雨"
+        },
+        {
+            "datetime": "2025-06-21",
+            "tempmax": 23,
+            "tempmin": 19,
+            "conditions": "大雨"
         }
     ]
 }
