@@ -76619,6 +76619,11 @@
             "reporttime": "2025-06-23 05:01:19",
             "weather": "雾",
             "temperature": "22"
+        },
+        {
+            "reporttime": "2025-06-23 05:33:58",
+            "weather": "小雨",
+            "temperature": "22"
         }
     ]
 }
