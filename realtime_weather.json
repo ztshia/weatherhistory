@@ -77649,6 +77649,11 @@
             "reporttime": "2025-06-28 06:33:46",
             "weather": "阴",
             "temperature": "24"
+        },
+        {
+            "reporttime": "2025-06-28 07:01:19",
+            "weather": "阴",
+            "temperature": "25"
         }
     ]
 }
