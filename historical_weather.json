@@ -7583,6 +7583,12 @@
             "tempmax": 28,
             "tempmin": 24,
             "conditions": "中雨"
+        },
+        {
+            "datetime": "2025-06-28",
+            "tempmax": 31,
+            "tempmin": 24,
+            "conditions": "中雨"
         }
     ]
 }
