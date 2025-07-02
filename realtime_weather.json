@@ -78499,6 +78499,11 @@
             "reporttime": "2025-07-02 13:01:24",
             "weather": "多云",
             "temperature": "35"
+        },
+        {
+            "reporttime": "2025-07-02 13:34:04",
+            "weather": "多云",
+            "temperature": "36"
         }
     ]
 }
