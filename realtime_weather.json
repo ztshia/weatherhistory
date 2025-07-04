@@ -79049,6 +79049,11 @@
             "reporttime": "2025-07-05 03:01:25",
             "weather": "多云",
             "temperature": "29"
+        },
+        {
+            "reporttime": "2025-07-05 03:33:47",
+            "weather": "多云",
+            "temperature": "28"
         }
     ]
 }
