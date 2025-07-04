@@ -79029,6 +79029,11 @@
             "reporttime": "2025-07-05 01:01:25",
             "weather": "阴",
             "temperature": "30"
+        },
+        {
+            "reporttime": "2025-07-05 01:33:47",
+            "weather": "阴",
+            "temperature": "30"
         }
     ]
 }
