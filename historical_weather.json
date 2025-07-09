@@ -7649,6 +7649,12 @@
             "tempmax": 35,
             "tempmin": 27,
             "conditions": "小雨"
+        },
+        {
+            "datetime": "2025-07-09",
+            "tempmax": 35,
+            "tempmin": 26,
+            "conditions": "小雨"
         }
     ]
 }
