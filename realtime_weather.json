@@ -80069,6 +80069,11 @@
             "reporttime": "2025-07-10 03:01:26",
             "weather": "晴",
             "temperature": "27"
+        },
+        {
+            "reporttime": "2025-07-10 03:33:42",
+            "weather": "晴",
+            "temperature": "27"
         }
     ]
 }
