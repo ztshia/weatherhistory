@@ -80094,6 +80094,11 @@
             "reporttime": "2025-07-10 05:33:52",
             "weather": "雾",
             "temperature": "26"
+        },
+        {
+            "reporttime": "2025-07-10 06:03:41",
+            "weather": "多云",
+            "temperature": "27"
         }
     ]
 }
