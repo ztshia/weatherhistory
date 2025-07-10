@@ -80244,6 +80244,11 @@
             "reporttime": "2025-07-11 00:03:49",
             "weather": "雾",
             "temperature": "26"
+        },
+        {
+            "reporttime": "2025-07-11 00:31:31",
+            "weather": "雾",
+            "temperature": "26"
         }
     ]
 }
