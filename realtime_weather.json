@@ -80174,6 +80174,11 @@
             "reporttime": "2025-07-10 16:32:05",
             "weather": "多云",
             "temperature": "33"
+        },
+        {
+            "reporttime": "2025-07-10 17:01:27",
+            "weather": "中雨",
+            "temperature": "33"
         }
     ]
 }
