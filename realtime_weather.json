@@ -80124,6 +80124,11 @@
             "reporttime": "2025-07-10 11:01:26",
             "weather": "多云",
             "temperature": "31"
+        },
+        {
+            "reporttime": "2025-07-10 12:03:58",
+            "weather": "多云",
+            "temperature": "32"
         }
     ]
 }
